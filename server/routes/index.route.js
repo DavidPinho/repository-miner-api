@@ -1,6 +1,7 @@
 import express from 'express';
 import userRoutes from './user.route';
 import repositoryRoutes from './repository.route';
+import referenceRoutes from './reference.route';
 import authRoutes from './auth.route';
 
 const router = express.Router(); // eslint-disable-line new-cap
@@ -15,6 +16,9 @@ router.use('/users', userRoutes);
 
 // mount repositories routes at /repositories
 router.use('/repositories', repositoryRoutes);
+
+// mount references routes at /references
+router.use('/references', referenceRoutes);
 
 // mount auth routes at /auth
 router.use('/auth', authRoutes);
