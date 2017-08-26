@@ -47,7 +47,34 @@ ReferenceSchema.statics = {
         { "$sort": { "commitsLength": -1 } }
       ]
     )
-    .exec();
+      .exec();
+  },
+
+  /**
+   * List References filtered by repository id.
+   */
+  listByRepository(repositoryId) {
+    return this.aggregate(
+      [
+        {
+          "$match": {
+            "repository": repositoryId
+          }
+        },
+        {
+          "$project": {
+            "name": 1,
+            "repository": 1,
+            "path": 1,
+            "type": 1,
+            "commits": 1,
+            "commitsLength": { "$size": "$commits" }
+          }
+        },
+        { "$sort": { "commitsLength": -1 } }
+      ]
+    )
+      .exec();
   }
 };
 

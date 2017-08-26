@@ -10,4 +10,14 @@ function list(req, res, next) {
     .catch(e => next(e));
 }
 
-export default { list };
+/**
+ * Get Reference list filtered by Repository.
+ * @returns {Reference[]}
+ */
+function listByRepository(req, res, next) {
+  Reference.listByRepository(req.params.repositoryId)
+    .then(reference => res.json(reference))
+    .catch(e => next(e));
+}
+
+export default { list, listByRepository };
