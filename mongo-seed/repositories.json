@@ -1,0 +1,19 @@
+[
+    {
+        "_id" : "595e1e6fb8a9f919be23e132", 
+        "name": "JUnit4",
+        "path": "/home/felipe/git/junit4",
+        "description": "JUnit is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.",
+        "scm": "GIT",
+        "contributors": [
+            {
+                "name": "vbossica",
+                "email": "vbossica"
+            },
+            {
+                "name": "Jesse Glick",
+                "email": "jglick@cloudbees.com"
+            }
+        ]
+    }
+]
