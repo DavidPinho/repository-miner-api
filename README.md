@@ -29,6 +29,7 @@ Start server:
 ```sh
 # Start server
 yarn start
+```
 
 Keep in mind that you need to have mongodb installed. See the .env file to set up the MONGO_HOST and MONGO_PORT.
 
@@ -59,14 +60,12 @@ Install docker: https://docs.docker.com/engine/installation/
 
 Start API:
 ```sh
-# For Development
 # service restarts on file change
 docker-compose up --build
 ```
 
 Stop API:
 ```sh
-# For Development
-# service restarts on file change
+# Stop and remove all containers
 docker-compose down
 ```
