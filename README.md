@@ -2,7 +2,7 @@
 
 ## Overview
 
-RepositoryMiner is an API which provide information about software metrics, code smells and technical debts previously analyzed.
+RepositoryMiner is an API which provide information about software metrics, code smells and technical debts previously analyzed. For detailed information about this API see http://docs.repositoryminer.apiary.io/.
 
 
 ## Getting Started
