@@ -31,7 +31,8 @@ Start server:
 yarn start
 ```
 
-Keep in mind that you need to have mongodb installed. See the .env file to set up the MONGO_HOST and MONGO_PORT.
+
+Keep in mind that you need to have mongodb installed. You can set up `MONGO_HOST` and `MONGO_PORT` in the `.env` file.
 
 Tests:
 ```sh
