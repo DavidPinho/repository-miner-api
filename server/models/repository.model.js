@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import APIError from '../helpers/APIError';
 
 /**
  * Repository Schema
@@ -12,7 +11,7 @@ const RepositorySchema = new mongoose.Schema({
   path: String,
   description: String,
   scm: String,
-  contributors: [{name: String, email: String}]
+  contributors: [{ name: String, email: String }]
 });
 
 /**

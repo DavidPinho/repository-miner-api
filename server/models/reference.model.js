@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import APIError from '../helpers/APIError';
 
 /**
  * Reference Schema
@@ -35,16 +34,16 @@ ReferenceSchema.statics = {
     return this.aggregate(
       [
         {
-          "$project": {
-            "name": 1,
-            "repository": 1,
-            "path": 1,
-            "type": 1,
-            "commits": 1,
-            "commitsLength": { "$size": "$commits" }
+          $project: {
+            name: 1,
+            repository: 1,
+            path: 1,
+            type: 1,
+            commits: 1,
+            commitsLength: { $size: '$commits' }
           }
         },
-        { "$sort": { "commitsLength": -1 } }
+        { $sort: { commitsLength: -1 } }
       ]
     )
       .exec();
@@ -57,21 +56,21 @@ ReferenceSchema.statics = {
     return this.aggregate(
       [
         {
-          "$match": {
-            "repository": repositoryId
+          $match: {
+            repository: repositoryId
           }
         },
         {
-          "$project": {
-            "name": 1,
-            "repository": 1,
-            "path": 1,
-            "type": 1,
-            "commits": 1,
-            "commitsLength": { "$size": "$commits" }
+          $project: {
+            name: 1,
+            repository: 1,
+            path: 1,
+            type: 1,
+            commits: 1,
+            commitsLength: { $size: '$commits' }
           }
         },
-        { "$sort": { "commitsLength": -1 } }
+        { $sort: { commitsLength: -1 } }
       ]
     )
       .exec();
