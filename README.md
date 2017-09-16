@@ -31,6 +31,8 @@ Start server:
 yarn start
 ```
 
+The API will be available on http://localhost:4040/api.
+
 
 Keep in mind that you need to have mongodb installed. You can set up `MONGO_HOST` and `MONGO_PORT` in the `.env` file.
 
@@ -64,6 +66,8 @@ Start API:
 # service restarts on file change
 docker-compose up --build
 ```
+
+The API will be available on http://localhost:4040/api.
 
 Stop API:
 ```sh
