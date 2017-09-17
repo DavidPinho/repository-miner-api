@@ -87,24 +87,25 @@ ReferenceSchema.statics = {
           }
         },
         {
-          $project: {
-            name: 1,
-            repository: 1,
-            path: 1,
-            type: 1,
-            commitsLength: { $size: '$commits' }
-          }
-        },  
-        {
           $lookup:
             {
               from: "technical_code_debt",
               localField: "name",
               foreignField: "reference_name",
-              as: "types"
+              as: "files"
             }
        },
-       { $sort: { commitsLength: -1 } }
+       {
+        $project: {
+          name: 1,
+          repository: 1,
+          path: 1,
+          type: 1,
+          files: 1,
+          commitsLength: { $size: '$commits' }
+        },
+      },   
+      { $sort: { commitsLength: -1 } }
       ]
     )
       .exec();
