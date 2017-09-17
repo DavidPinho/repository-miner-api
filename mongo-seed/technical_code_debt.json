@@ -1,0 +1,4132 @@
+[
+    {
+        "filestate": "b6a0693454ac8ded32b3a1ea7c859c5a840169dc",
+        "filehash": 2437918243,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r3.8.2",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT",
+            "DEFECT_DEBT",
+            "TEST_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2004-12-28T17:19:01.000+0000",
+        "filename": "junit/framework/TestSuite.java",
+        "contributors": [
+            {
+                "email": "egamma",
+                "name": "egamma",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            },
+            {
+                "email": "emeade",
+                "name": "emeade",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "COMMENT_TEST_DEBT": "/**\r\n* Fails a test with no message.*/",
+            "FEATURE_ENVY": 1,
+            "COMMENT_DEFECT_DEBT": "// Avoid generating multiple error messages"
+        },
+        "commit": "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47",
+        "_id": "595e40c9b8a9f9292f4c46e9",
+        "technical_debt": false
+    },
+    {
+        "filestate": "ba28bf0f0384ba8b2fc377ef612545f411a56ec4",
+        "filehash": 2251872743,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r3.8.2",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2004-12-28T17:19:01.000+0000",
+        "filename": "junit/framework/ComparisonCompactor.java",
+        "contributors": [
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1
+        },
+        "commit": "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47",
+        "_id": "595e40c9b8a9f9292f4c46ea",
+        "technical_debt": false
+    },
+    {
+        "filestate": "b6a0693454ac8ded32b3a1ea7c859c5a840169dc",
+        "filehash": 753764863,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r3.8.2",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2004-12-28T17:19:01.000+0000",
+        "filename": "junit/runner/BaseTestRunner.java",
+        "contributors": [
+            {
+                "email": "egamma",
+                "name": "egamma",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            },
+            {
+                "email": "emeade",
+                "name": "emeade",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 3,
+            "COMMENT_CODE_DEBT": "// calling of the deprecated save method to enable compiling under 1.1.7",
+            "MULTITHREAD_CORRECTNESS": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 4
+        },
+        "commit": "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47",
+        "_id": "595e40c9b8a9f9292f4c46eb",
+        "technical_debt": false
+    },
+    {
+        "filestate": "b6a0693454ac8ded32b3a1ea7c859c5a840169dc",
+        "filehash": 955758577,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r3.8.2",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2004-12-28T17:19:01.000+0000",
+        "filename": "junit/extensions/ActiveTestSuite.java",
+        "contributors": [
+            {
+                "email": "egamma",
+                "name": "egamma",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "MULTITHREAD_CORRECTNESS": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47",
+        "_id": "595e40c9b8a9f9292f4c46ec",
+        "technical_debt": false
+    },
+    {
+        "filestate": "b6a0693454ac8ded32b3a1ea7c859c5a840169dc",
+        "filehash": 1778020618,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r3.8.2",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2004-12-28T17:19:01.000+0000",
+        "filename": "junit/runner/TestCaseClassLoader.java",
+        "contributors": [
+            {
+                "email": "egamma",
+                "name": "egamma",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47",
+        "_id": "595e40c9b8a9f9292f4c46ed",
+        "technical_debt": false
+    },
+    {
+        "filestate": "d9c81356e3a2fbb165c71b32d63d0cc39a1bd861",
+        "filehash": 1047902444,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.6",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-04-14T02:07:14.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/max/JUnit38SortingTest.java",
+        "contributors": [
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@new-host.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "b5e9885854a0d594451800b9127eb50afb645433",
+        "_id": "595e40ceb8a9f9292f4c474c",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 334135839,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.6",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-04-14T02:07:14.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/Guesser.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "b5e9885854a0d594451800b9127eb50afb645433",
+        "_id": "595e40ceb8a9f9292f4c474d",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 542732622,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.6",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-04-14T02:07:14.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/theories/ParameterizedAssertionErrorTest.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1
+        },
+        "commit": "b5e9885854a0d594451800b9127eb50afb645433",
+        "_id": "595e40ceb8a9f9292f4c474e",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 1356970712,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.6",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-04-14T02:07:14.000+0000",
+        "filename": "src/test/java/org/junit/tests/junit3compatibility/JUnit38ClassRunnerTest.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "b5e9885854a0d594451800b9127eb50afb645433",
+        "_id": "595e40ceb8a9f9292f4c474f",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2724526872,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.6",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-04-14T02:07:14.000+0000",
+        "filename": "src/test/java/org/junit/tests/listening/TextListenerTest.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "b5e9885854a0d594451800b9127eb50afb645433",
+        "_id": "595e40ceb8a9f9292f4c4750",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2466130265,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.6",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-04-14T02:07:14.000+0000",
+        "filename": "src/main/java/org/junit/internal/TextListener.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1
+        },
+        "commit": "b5e9885854a0d594451800b9127eb50afb645433",
+        "_id": "595e40ceb8a9f9292f4c4751",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3368891139,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.7",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-07-28T02:16:50.000+0000",
+        "filename": "src/test/java/junit/tests/runner/TextRunnerTest.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1,
+            "FEATURE_ENVY": 1,
+            "COMMENT_DEFECT_DEBT": "/**\r\n* <p>The <code>Test</code> annotation tells JUnit that the <code>public void</code> method\r\n* to which it is attached can be run as a test case. To run the method,\r\n* JUnit first constructs a fresh instance of the class then invokes the\r\n* annotated method. Any exceptions thrown by the test will be reported\r\n* by JUnit as a failure. If no exceptions are thrown, the test is assumed\r\n* to have succeeded.</p>\r\n*\r\n* <p>A simple test looks like this:\r\n* <pre>\r\n* public class Example\r\n* <b>&amp;#064;Test</b>\r\n* public void method()\r\n* org.junit.Assert.assertTrue( new ArrayList().isEmpty() );\r\n* }\r\n* }\r\n* </pre>\r\n* </p>\r\n*\r\n* <p>The <code>Test</code> annotation supports two optional parameters.\r\n* The first, <code>expected</code>, declares that a test method should throw\r\n* an exception. If it doesn't throw an exception or if it throws a different exception\r\n* than the one declared, the test fails. For example, the following test succeeds:\r\n* <pre>\r\n* &amp;#064;Test(<b>expected=IndexOutOfBoundsException.class</b>) public void outOfBounds()\r\n* new ArrayList&amp;lt;Object&amp;gt;().get(1);\r\n* }\r\n* </pre></p>\r\n*\r\n* <p>The second optional parameter, <code>timeout</code>, causes a test to fail if it takes\r\n* longer than a specified amount of clock time (measured in milliseconds). The following test fails:\r\n* <pre>\r\n* &amp;#064;Test(<b>timeout=100</b>) public void infinity()\r\n* while(true);\r\n* }\r\n* </pre></p>*/",
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "a8629da96207e1ce71ead9ba9f85bc324f09bcab",
+        "_id": "595e40d4b8a9f9292f4c4782",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2678669351,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.7",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-07-28T02:16:50.000+0000",
+        "filename": "src/test/java/junit/samples/SimpleTest.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1,
+            "SLOW_ALGORITHM": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2,
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "a8629da96207e1ce71ead9ba9f85bc324f09bcab",
+        "_id": "595e40d4b8a9f9292f4c4783",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 1188849462,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.7",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-07-28T02:16:50.000+0000",
+        "filename": "src/test/java/org/junit/tests/junit3compatibility/ForwardCompatibilityTest.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 3,
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "a8629da96207e1ce71ead9ba9f85bc324f09bcab",
+        "_id": "595e40d4b8a9f9292f4c4784",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 1019709840,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.7",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-07-28T02:16:50.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/MethodCall.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "a8629da96207e1ce71ead9ba9f85bc324f09bcab",
+        "_id": "595e40d4b8a9f9292f4c4785",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2449861551,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.7",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-07-28T02:16:50.000+0000",
+        "filename": "src/test/java/junit/tests/framework/AllTests.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1
+        },
+        "commit": "a8629da96207e1ce71ead9ba9f85bc324f09bcab",
+        "_id": "595e40d4b8a9f9292f4c4786",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3368891139,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.8",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-12-01T04:08:09.000+0000",
+        "filename": "src/test/java/junit/tests/runner/TextRunnerTest.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1,
+            "FEATURE_ENVY": 1,
+            "COMMENT_DEFECT_DEBT": "/**\r\n* <p>The <code>Test</code> annotation tells JUnit that the <code>public void</code> method\r\n* to which it is attached can be run as a test case. To run the method,\r\n* JUnit first constructs a fresh instance of the class then invokes the\r\n* annotated method. Any exceptions thrown by the test will be reported\r\n* by JUnit as a failure. If no exceptions are thrown, the test is assumed\r\n* to have succeeded.</p>\r\n*\r\n* <p>A simple test looks like this:\r\n* <pre>\r\n* public class Example\r\n* <b>&amp;#064;Test</b>\r\n* public void method()\r\n* org.junit.Assert.assertTrue( new ArrayList().isEmpty() );\r\n* }\r\n* }\r\n* </pre>\r\n* </p>\r\n*\r\n* <p>The <code>Test</code> annotation supports two optional parameters.\r\n* The first, <code>expected</code>, declares that a test method should throw\r\n* an exception. If it doesn't throw an exception or if it throws a different exception\r\n* than the one declared, the test fails. For example, the following test succeeds:\r\n* <pre>\r\n* &amp;#064;Test(<b>expected=IndexOutOfBoundsException.class</b>) public void outOfBounds()\r\n* new ArrayList&amp;lt;Object&amp;gt;().get(1);\r\n* }\r\n* </pre></p>\r\n*\r\n* <p>The second optional parameter, <code>timeout</code>, causes a test to fail if it takes\r\n* longer than a specified amount of clock time (measured in milliseconds). The following test fails:\r\n* <pre>\r\n* &amp;#064;Test(<b>timeout=100</b>) public void infinity()\r\n* while(true);\r\n* }\r\n* </pre></p>*/",
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "5a3a326096cf65a58272ee89a5ef1c164cfd9d33",
+        "_id": "595e40d9b8a9f9292f4c47f6",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2678669351,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.8",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-12-01T04:08:09.000+0000",
+        "filename": "src/test/java/junit/samples/SimpleTest.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1,
+            "SLOW_ALGORITHM": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2,
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "5a3a326096cf65a58272ee89a5ef1c164cfd9d33",
+        "_id": "595e40d9b8a9f9292f4c47f7",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 1188849462,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.8",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-12-01T04:08:09.000+0000",
+        "filename": "src/test/java/org/junit/tests/junit3compatibility/ForwardCompatibilityTest.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 3,
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "5a3a326096cf65a58272ee89a5ef1c164cfd9d33",
+        "_id": "595e40d9b8a9f9292f4c47f8",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 1019709840,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.8",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-12-01T04:08:09.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/MethodCall.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "5a3a326096cf65a58272ee89a5ef1c164cfd9d33",
+        "_id": "595e40d9b8a9f9292f4c47f9",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2449861551,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.8",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2009-12-01T04:08:09.000+0000",
+        "filename": "src/test/java/junit/tests/framework/AllTests.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1
+        },
+        "commit": "5a3a326096cf65a58272ee89a5ef1c164cfd9d33",
+        "_id": "595e40d9b8a9f9292f4c47fa",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2678669351,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.9",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2011-08-22T18:20:52.000+0000",
+        "filename": "src/test/java/junit/samples/SimpleTest.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1,
+            "SLOW_ALGORITHM": 1,
+            "COMMENT_DEFECT_DEBT": "/**\r\n* <p>The <code>Test</code> annotation tells JUnit that the <code>public void</code> method\r\n* to which it is attached can be run as a test case. To run the method,\r\n* JUnit first constructs a fresh instance of the class then invokes the\r\n* annotated method. Any exceptions thrown by the test will be reported\r\n* by JUnit as a failure. If no exceptions are thrown, the test is assumed\r\n* to have succeeded.</p>\r\n*\r\n* <p>A simple test looks like this:\r\n* <pre>\r\n* public class Example\r\n* <b>&amp;#064;Test</b>\r\n* public void method()\r\n* org.junit.Assert.assertTrue( new ArrayList().isEmpty() );\r\n* }\r\n* }\r\n* </pre>\r\n* </p>\r\n*\r\n* <p>The <code>Test</code> annotation supports two optional parameters.\r\n* The first, <code>expected</code>, declares that a test method should throw\r\n* an exception. If it doesn't throw an exception or if it throws a different exception\r\n* than the one declared, the test fails. For example, the following test succeeds:\r\n* <pre>\r\n* &amp;#064;Test(<b>expected=IndexOutOfBoundsException.class</b>) public void outOfBounds()\r\n* new ArrayList&amp;lt;Object&amp;gt;().get(1);\r\n* }\r\n* </pre></p>\r\n*\r\n* <p>The second optional parameter, <code>timeout</code>, causes a test to fail if it takes\r\n* longer than a specified amount of clock time (measured in milliseconds). The following test fails:\r\n* <pre>\r\n* &amp;#064;Test(<b>timeout=100</b>) public void infinity()\r\n* while(true);\r\n* }\r\n* </pre></p>*/",
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2,
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "61f06547599bb6b98bca99d5bc457eb20bc17cab",
+        "_id": "595e40e0b8a9f9292f4c486c",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 1019709840,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.9",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2011-08-22T18:20:52.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/MethodCall.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "61f06547599bb6b98bca99d5bc457eb20bc17cab",
+        "_id": "595e40e0b8a9f9292f4c486d",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2449861551,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.9",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2011-08-22T18:20:52.000+0000",
+        "filename": "src/test/java/junit/tests/framework/AllTests.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1
+        },
+        "commit": "61f06547599bb6b98bca99d5bc457eb20bc17cab",
+        "_id": "595e40e0b8a9f9292f4c486e",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 4019448035,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.9",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2011-08-22T18:20:52.000+0000",
+        "filename": "src/test/java/org/junit/tests/running/classes/ParameterizedTestTest.java",
+        "contributors": [
+            {
+                "email": "david@saff.net",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@new-host-3.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            },
+            {
+                "email": "bigmike@io.com",
+                "name": "Mike Forsberg",
+                "colaborator": false
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "61f06547599bb6b98bca99d5bc457eb20bc17cab",
+        "_id": "595e40e0b8a9f9292f4c486f",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 442103774,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.9",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2011-08-22T18:20:52.000+0000",
+        "filename": "src/main/java/junit/framework/TestResult.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1,
+            "COMMENT_DEFECT_DEBT": "/**\r\n* Adds an error to the list of errors. The passed in exception\r\n* caused the error.*/"
+        },
+        "commit": "61f06547599bb6b98bca99d5bc457eb20bc17cab",
+        "_id": "595e40e0b8a9f9292f4c4870",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3923430781,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.9",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2011-08-22T18:20:52.000+0000",
+        "filename": "src/main/java/org/junit/ComparisonFailure.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1,
+            "COMMENT_DEFECT_DEBT": "/**\r\n* Thrown when an @link org.junit.Assert#assertEquals(Object, Object) assertEquals(String, String)} fails. Create and throw\r\n* a <code>ComparisonFailure</code> manually if you want to show users the difference between two complex\r\n* strings.\r\n*\r\n* Inspired by a patch from Alex Chaffee (alex@purpletech.com)*/"
+        },
+        "commit": "61f06547599bb6b98bca99d5bc457eb20bc17cab",
+        "_id": "595e40e0b8a9f9292f4c4871",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2678669351,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.10",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2011-09-29T18:18:35.000+0000",
+        "filename": "src/test/java/junit/samples/SimpleTest.java",
+        "contributors": [
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "SLOW_ALGORITHM": 1,
+            "COMMENT_DEFECT_DEBT": "/**\r\n* <p>The <code>Test</code> annotation tells JUnit that the <code>public void</code> method\r\n* to which it is attached can be run as a test case. To run the method,\r\n* JUnit first constructs a fresh instance of the class then invokes the\r\n* annotated method. Any exceptions thrown by the test will be reported\r\n* by JUnit as a failure. If no exceptions are thrown, the test is assumed\r\n* to have succeeded.</p>\r\n*\r\n* <p>A simple test looks like this:\r\n* <pre>\r\n* public class Example\r\n* <b>&amp;#064;Test</b>\r\n* public void method()\r\n* org.junit.Assert.assertTrue( new ArrayList().isEmpty() );\r\n* }\r\n* }\r\n* </pre>\r\n* </p>\r\n*\r\n* <p>The <code>Test</code> annotation supports two optional parameters.\r\n* The first, <code>expected</code>, declares that a test method should throw\r\n* an exception. If it doesn't throw an exception or if it throws a different exception\r\n* than the one declared, the test fails. For example, the following test succeeds:\r\n* <pre>\r\n* &amp;#064;Test(<b>expected=IndexOutOfBoundsException.class</b>) public void outOfBounds()\r\n* new ArrayList&amp;lt;Object&amp;gt;().get(1);\r\n* }\r\n* </pre></p>\r\n*\r\n* <p>The second optional parameter, <code>timeout</code>, causes a test to fail if it takes\r\n* longer than a specified amount of clock time (measured in milliseconds). The following test fails:\r\n* <pre>\r\n* &amp;#064;Test(<b>timeout=100</b>) public void infinity()\r\n* while(true);\r\n* }\r\n* </pre></p>*/",
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2,
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "45a44647e7306262162e1346b750c3209019f2e1",
+        "_id": "595e40e5b8a9f9292f4c48eb",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 1019709840,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.10",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2011-09-29T18:18:35.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/MethodCall.java",
+        "contributors": [
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "45a44647e7306262162e1346b750c3209019f2e1",
+        "_id": "595e40e5b8a9f9292f4c48ec",
+        "technical_debt": false
+    },
+    {
+        "filestate": "e76c5f0fe7e1e2034765fd80cd7556b6bfc82345",
+        "filehash": 2779510360,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.10",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2011-09-29T18:18:35.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/rules/TestWatchmanTest.java",
+        "contributors": [
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "45a44647e7306262162e1346b750c3209019f2e1",
+        "_id": "595e40e5b8a9f9292f4c48ed",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 4019448035,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.10",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2011-09-29T18:18:35.000+0000",
+        "filename": "src/test/java/org/junit/tests/running/classes/ParameterizedTestTest.java",
+        "contributors": [
+            {
+                "email": "david@saff.net",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@new-host-3.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            },
+            {
+                "email": "bigmike@io.com",
+                "name": "Mike Forsberg",
+                "colaborator": false
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "45a44647e7306262162e1346b750c3209019f2e1",
+        "_id": "595e40e5b8a9f9292f4c48ee",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2678669351,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/test/java/junit/samples/SimpleTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "SLOW_ALGORITHM": 1,
+            "COMMENT_DEFECT_DEBT": "/**\r\n* Optionally specify <code>timeout</code> in milliseconds to cause a test method to fail if it* takes longer than that number of milliseconds.*/",
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2,
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c496c",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 1019709840,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/MethodCall.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c496d",
+        "technical_debt": false
+    },
+    {
+        "filestate": "93346b959c96b3e90e4f3f3b015f7049ed4624ed",
+        "filehash": 2779510360,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/rules/TestWatchmanTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c496e",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 4019448035,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/test/java/org/junit/tests/running/classes/ParameterizedTestTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "jeremy.herault@gmail.com",
+                "name": "Jeremy Herault",
+                "colaborator": true
+            },
+            {
+                "email": "saff@new-host-3.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            },
+            {
+                "email": "bigmike@io.com",
+                "name": "Mike Forsberg",
+                "colaborator": false
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c496f",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 442103774,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/main/java/junit/framework/TestResult.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1,
+            "COMMENT_DEFECT_DEBT": "/**\r\n* Adds an error to the list of errors. The passed in exception\r\n* caused the error.*/"
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c4970",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3923430781,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/main/java/org/junit/ComparisonFailure.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "matthew@farwell.co.uk",
+                "name": "Matthew Farwell",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 2,
+            "COMMENT_DEFECT_DEBT": "/**\r\n* Thrown when an @link org.junit.Assert#assertEquals(Object, Object) assertEquals(String, String)} fails. Create and throw\r\n* a <code>ComparisonFailure</code> manually if you want to show users the difference between two complex\r\n* strings.\r\n*\r\n* Inspired by a patch from Alex Chaffee (alex@purpletech.com)*/"
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c4971",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 336009984,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/test/java/org/junit/samples/SimpleTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1,
+            "SLOW_ALGORITHM": 1
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c4972",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3264597696,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/test/java/org/junit/tests/manipulation/SingleMethodTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 4
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c4973",
+        "technical_debt": false
+    },
+    {
+        "filestate": "97afc5e205e1c6ac0f5a9aefabed92d58d88ab81",
+        "filehash": 1473069303,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/rules/TempFolderRuleTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "matthew@farwell.co.uk",
+                "name": "Matthew Farwell",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "daniel.rothmaler@nubix.biz",
+                "name": "Daniel Rothmaler",
+                "colaborator": false
+            },
+            {
+                "email": "rodolfoliviero@gmail.com",
+                "name": "rodolfoliviero",
+                "colaborator": true
+            },
+            {
+                "email": "esko.luontola@gmail.com",
+                "name": "Esko Luontola",
+                "colaborator": true
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "simplyarjen@gmail.com",
+                "name": "Arjen Stolk",
+                "colaborator": true
+            },
+            {
+                "email": "daniel_rothmaler@web.de",
+                "name": "Daniel Rothmaler",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 6
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c4974",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8c61443793e4c2e90a4056ee528c3880febb53d2",
+        "filehash": 455865002,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/main/java/org/junit/internal/runners/MethodRoadie.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c4975",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2847460319,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/main/java/org/junit/experimental/theories/internal/ParameterizedAssertionError.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c4976",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 877298070,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/test/java/org/junit/tests/running/methods/ParameterizedTestMethodTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c4977",
+        "technical_debt": false
+    },
+    {
+        "filestate": "93346b959c96b3e90e4f3f3b015f7049ed4624ed",
+        "filehash": 3590290330,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/rules/TemporaryFolderUsageTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "vyazelenko@yahoo.com",
+                "name": "Dmitry Vyazelenko",
+                "colaborator": true
+            },
+            {
+                "email": "shs@google.com",
+                "name": "Simon Stewart",
+                "colaborator": true
+            },
+            {
+                "email": "gezr@a11.(none)",
+                "name": "unknown",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 3,
+            "FEATURE_ENVY": 1
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c4978",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2619987268,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/main/java/org/junit/experimental/results/PrintableResult.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.local",
+                "name": "David Saff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "COMMENT_DEFECT_DEBT": "/**\r\n* A test result that prints nicely in error messages.\r\n* This is only intended to be used in JUnit self-tests.\r\n* For example:\r\n*\r\n* <pre>\r\n* assertThat(testResult(HasExpectedException.class), isSuccessful());\r\n* </pre>*/",
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c4979",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3591743889,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/test/java/junit/tests/framework/AssertTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@google.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1,
+            "SLOW_ALGORITHM": 2,
+            "COMMENT_DEFECT_DEBT": "// Also, we are testing fail, so we can't rely on fail() working.",
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 5,
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c497a",
+        "technical_debt": false
+    },
+    {
+        "filestate": "96d7dd609920deb1336cf85dc6c9a3a0d5e30d15",
+        "filehash": 109517768,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/main/java/org/junit/internal/runners/statements/ExpectException.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c497b",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 136469348,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/main/java/junit/framework/ComparisonCompactor.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 2
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c497c",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2425774882,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/main/java/junit/runner/BaseTestRunner.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 5,
+            "MULTITHREAD_CORRECTNESS": 1,
+            "FEATURE_ENVY": 1,
+            "GOD_CLASS": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 4
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c497d",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 97383699,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/main/java/junit/framework/TestFailure.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c497e",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3507154267,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.11",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2012-11-13T20:10:09.000+0000",
+        "filename": "src/test/java/junit/tests/framework/FloatAssertTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
+        "_id": "595e40edb8a9f9292f4c497f",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 1019709840,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.12",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2014-12-04T16:13:56.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/MethodCall.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "64155f8a9babcfcf4263cf4d08253a1556e75481",
+        "_id": "595e40f8b8a9f9292f4c49f7",
+        "technical_debt": false
+    },
+    {
+        "filestate": "93346b959c96b3e90e4f3f3b015f7049ed4624ed",
+        "filehash": 2779510360,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.12",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2014-12-04T16:13:56.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/rules/TestWatchmanTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "64155f8a9babcfcf4263cf4d08253a1556e75481",
+        "_id": "595e40f8b8a9f9292f4c49f8",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 4019448035,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.12",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2014-12-04T16:13:56.000+0000",
+        "filename": "src/test/java/org/junit/tests/running/classes/ParameterizedTestTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "jeremy.herault@gmail.com",
+                "name": "Jeremy Herault",
+                "colaborator": true
+            },
+            {
+                "email": "saff@new-host-3.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            },
+            {
+                "email": "vimilsaju@yahoo.com",
+                "name": "vimil",
+                "colaborator": false
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            },
+            {
+                "email": "bigmike@io.com",
+                "name": "Mike Forsberg",
+                "colaborator": false
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "64155f8a9babcfcf4263cf4d08253a1556e75481",
+        "_id": "595e40f8b8a9f9292f4c49f9",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 442103774,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.12",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2014-12-04T16:13:56.000+0000",
+        "filename": "src/main/java/junit/framework/TestResult.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "alexyursha@gmail.com",
+                "name": "Alex Yursha",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "m.allamanis@ed.ac.uk",
+                "name": "Miltos Allamanis",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1,
+            "COMMENT_DEFECT_DEBT": "/**\r\n* Adds an error to the list of errors. The passed in exception\r\n* caused the error.*/"
+        },
+        "commit": "64155f8a9babcfcf4263cf4d08253a1556e75481",
+        "_id": "595e40f8b8a9f9292f4c49fa",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 336009984,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.12",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2014-12-04T16:13:56.000+0000",
+        "filename": "src/test/java/org/junit/samples/SimpleTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1,
+            "SLOW_ALGORITHM": 1
+        },
+        "commit": "64155f8a9babcfcf4263cf4d08253a1556e75481",
+        "_id": "595e40f8b8a9f9292f4c49fb",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3264597696,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.12",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2014-12-04T16:13:56.000+0000",
+        "filename": "src/test/java/org/junit/tests/manipulation/SingleMethodTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 4
+        },
+        "commit": "64155f8a9babcfcf4263cf4d08253a1556e75481",
+        "_id": "595e40f8b8a9f9292f4c49fc",
+        "technical_debt": false
+    },
+    {
+        "filestate": "15bef4ec10639406e419ed8732a7f82b9f8b0d13",
+        "filehash": 3851480385,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.12",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2014-12-04T16:13:56.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/categories/MultiCategoryTest.java",
+        "contributors": [
+            {
+                "email": "tibor17@lycos.com",
+                "name": "Tibor Digana",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 2,
+            "FEATURE_ENVY": 1
+        },
+        "commit": "64155f8a9babcfcf4263cf4d08253a1556e75481",
+        "_id": "595e40f8b8a9f9292f4c49fd",
+        "technical_debt": false
+    },
+    {
+        "filestate": "97afc5e205e1c6ac0f5a9aefabed92d58d88ab81",
+        "filehash": 1473069303,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "r4.12",
+        "debts": [
+            "CODE_DEBT",
+            "DESIGN_DEBT"
+        ],
+        "reference_type": "TAG",
+        "commit_date": "2014-12-04T16:13:56.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/rules/TempFolderRuleTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "matthew@farwell.co.uk",
+                "name": "Matthew Farwell",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "daniel.rothmaler@nubix.biz",
+                "name": "Daniel Rothmaler",
+                "colaborator": false
+            },
+            {
+                "email": "rodolfoliviero@gmail.com",
+                "name": "rodolfoliviero",
+                "colaborator": true
+            },
+            {
+                "email": "esko.luontola@gmail.com",
+                "name": "Esko Luontola",
+                "colaborator": true
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "simplyarjen@gmail.com",
+                "name": "Arjen Stolk",
+                "colaborator": true
+            },
+            {
+                "email": "daniel_rothmaler@web.de",
+                "name": "Daniel Rothmaler",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 6
+        },
+        "commit": "64155f8a9babcfcf4263cf4d08253a1556e75481",
+        "_id": "595e40f8b8a9f9292f4c49fe",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2678669351,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2012-10-04T21:16:19.000+0000",
+        "filename": "src/test/java/junit/samples/SimpleTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "COMMENT_DEFECT_DEBT": "/**\r\n* Optionally specify <code>timeout</code> in milliseconds to cause a test method to fail if it\r\n* takes longer than that number of milliseconds.\r\n* <p>\r\n* <b>THREAD SAFETY WARNING:</b> Test methods with a timeout parameter are run in a thread other than the\r\n* thread which runs the fixture's @Before and @After methods. This may yield different behavior for\r\n* code that is not thread safe when compared to the same test method without a timeout parameter.\r\n* <b>Consider using the @link org.junit.rules.Timeout} rule instead</b>, which ensures a test method is run on the\r\n* same thread as the fixture's @Before and @After methods.\r\n* </p>*/",
+            "SLOW_ALGORITHM": 1,
+            "COMMENT_ANALYSIS": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2,
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae631",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 1019709840,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2012-10-04T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/MethodCall.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae632",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 4019448035,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/running/classes/ParameterizedTestTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@users.noreply.github.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "jeremy.herault@gmail.com",
+                "name": "Jeremy Herault",
+                "colaborator": true
+            },
+            {
+                "email": "saff@new-host-3.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "vimilsaju@yahoo.com",
+                "name": "vimil",
+                "colaborator": false
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "scotto.alberto.86@gmail.com",
+                "name": "Alberto Scotto",
+                "colaborator": false
+            },
+            {
+                "email": "panchenko@users.noreply.github.com",
+                "name": "Alex Panchenko",
+                "colaborator": false
+            },
+            {
+                "email": "bigmike@io.com",
+                "name": "Mike Forsberg",
+                "colaborator": false
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 7
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae633",
+        "technical_debt": false
+    },
+    {
+        "filestate": "4d0d182424f462cb29b74c99d352d3bf4beb1e05",
+        "filehash": 1022827199,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/rules/VerifierRuleTest.java",
+        "contributors": [
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "paulduffin@google.com",
+                "name": "Paul Duffin",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@google.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae634",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 336009984,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/samples/SimpleTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "paulduffin@google.com",
+                "name": "Paul Duffin",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1,
+            "SLOW_ALGORITHM": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae635",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3264597696,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/manipulation/SingleMethodTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 4
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae636",
+        "technical_debt": false
+    },
+    {
+        "filestate": "7d07b8db30db7ee0d7220af40fff25f22aae2c9e",
+        "filehash": 455865002,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/main/java/org/junit/internal/runners/MethodRoadie.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "github@locha.se",
+                "name": "Andreas Skoog",
+                "colaborator": true
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae637",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 877298070,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/running/methods/ParameterizedTestMethodTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "DUPLICATED_CODE": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae638",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2619987268,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/main/java/org/junit/experimental/results/PrintableResult.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@google.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.local",
+                "name": "David Saff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "COMMENT_DEFECT_DEBT": "/**\r\n* A test result that prints nicely in error messages.\r\n* This is only intended to be used in JUnit self-tests.\r\n* For example:\r\n*\r\n* <pre>\r\n* assertThat(testResult(HasExpectedException.class), isSuccessful());\r\n* </pre>*/",
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae639",
+        "technical_debt": false
+    },
+    {
+        "filestate": "2b6fa701e84625c511b03079296774cc0904ef1a",
+        "filehash": 333670404,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/running/classes/parent/ParentRunnerClassLoaderTest.java",
+        "contributors": [
+            {
+                "email": "kcooney@users.noreply.github.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "folyga@gmail.com",
+                "name": "Vladimir Gordiychuk",
+                "colaborator": false
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae63a",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3591743889,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/junit/tests/framework/AssertTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@google.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "SLOW_ALGORITHM": 2,
+            "COMMENT_DEFECT_DEBT": "// Also, we are testing fail, so we can't rely on fail() working.",
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 5,
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae63b",
+        "technical_debt": false
+    },
+    {
+        "filestate": "96d7dd609920deb1336cf85dc6c9a3a0d5e30d15",
+        "filehash": 109517768,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/main/java/org/junit/internal/runners/statements/ExpectException.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@users.noreply.github.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "alex.yursha@icloud.com",
+                "name": "Alex Yursha",
+                "colaborator": false
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            },
+            {
+                "email": "scotto.alberto.86@gmail.com",
+                "name": "Alberto Scotto",
+                "colaborator": false
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae63c",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2425774882,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/main/java/junit/runner/BaseTestRunner.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@users.noreply.github.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "bauer.vlad@gmail.com",
+                "name": "Vladislav Bauer",
+                "colaborator": true
+            },
+            {
+                "email": "scotto.alberto.86@gmail.com",
+                "name": "Alberto Scotto",
+                "colaborator": false
+            },
+            {
+                "email": "m.allamanis@ed.ac.uk",
+                "name": "Miltos Allamanis",
+                "colaborator": true
+            },
+            {
+                "email": "trejkaz@trypticon.org",
+                "name": "Trejkaz (pen name)",
+                "colaborator": false
+            },
+            {
+                "email": "kcooney@google.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 4,
+            "MULTITHREAD_CORRECTNESS": 1,
+            "GOD_CLASS": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae63d",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3507154267,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/junit/tests/framework/FloatAssertTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae63e",
+        "technical_debt": false
+    },
+    {
+        "filestate": "f34c4435ebeea2dc4dd91b8242a2defdf14d7d5c",
+        "filehash": 3876931451,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/internal/ChecksTest.java",
+        "contributors": [
+            {
+                "email": "kcooney@google.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae63f",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 4225084717,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/main/java/org/junit/internal/runners/SuiteMethod.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae640",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 754926488,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/junit3compatibility/AllTestsTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae641",
+        "technical_debt": false
+    },
+    {
+        "filestate": "d9c908b9aab5f610e2f42aba1863ce25e36423f2",
+        "filehash": 2624118312,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT",
+            "REQUIREMENT_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2015-05-21T21:16:19.000+0000",
+        "filename": "src/main/java/org/junit/internal/matchers/TypeSafeMatcher.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "charlie@yandex-team.ru",
+                "name": "Dmitry Baev",
+                "colaborator": true
+            },
+            {
+                "email": "jesse.glick@oracle.com",
+                "name": "Jesse Glick",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "COMMENT_REQUIREMENT_DEBT": "/**\r\n* Subclasses should implement this. The item will already have been checked for\r\n* the specific type and will never be null.*/",
+            "COMMENT_CODE_DEBT": "/**\r\n* Convenient base class for Matchers that require a non-null value of a specific type.\r\n* This simply implements the null check, checks the type and then casts.\r\n*\r\n* @author Joe Walnes\r\n* @deprecated Please use @link org.hamcrest.TypeSafeMatcher}.*/",
+            "FEATURE_ENVY": 1,
+            "COMMENT_ANALYSIS": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae642",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 1899967502,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/junit/samples/ListTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@users.noreply.github.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "xaxelmonroyx@gmail.com",
+                "name": "Axel Monroy",
+                "colaborator": false
+            },
+            {
+                "email": "b-hooper@m3.com",
+                "name": "Brian Takashi Hooper",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2,
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae643",
+        "technical_debt": false
+    },
+    {
+        "filestate": "4d0d182424f462cb29b74c99d352d3bf4beb1e05",
+        "filehash": 3025919754,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/rules/TemporaryFolderUsageTest.java",
+        "contributors": [
+            {
+                "email": "kcooney@users.noreply.github.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "noreply@github.com",
+                "name": "GitHub",
+                "colaborator": true
+            },
+            {
+                "email": "yegomosc@o2.pl",
+                "name": "powazny",
+                "colaborator": false
+            },
+            {
+                "email": "nicola.ambrosetti@stralfors.se",
+                "name": "Nicola Ambrosetti Brolin",
+                "colaborator": false
+            },
+            {
+                "email": "paulduffin@google.com",
+                "name": "Paul Duffin",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@google.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "github@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae644",
+        "technical_debt": false
+    },
+    {
+        "filestate": "4610330ca7fca16df7da1b7d09ea065d071cf9b8",
+        "filehash": 3173326633,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/assertion/MultipleFailureExceptionTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@users.noreply.github.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "PeterWippermann@users.noreply.github.com",
+                "name": "Peter Wippermann",
+                "colaborator": false
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "nicola.ambrosetti@stralfors.se",
+                "name": "Nicola Ambrosetti Brolin",
+                "colaborator": false
+            },
+            {
+                "email": "kcooney@google.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "avargas@nearsoft.com",
+                "name": "Arturo Vargas",
+                "colaborator": false
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae645",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 219088870,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/junit/tests/framework/TestListenerTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "m.allamanis@ed.ac.uk",
+                "name": "Miltos Allamanis",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae646",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3294563239,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/junit3compatibility/SuiteMethodTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-85.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "m.allamanis@ed.ac.uk",
+                "name": "Miltos Allamanis",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.local",
+                "name": "David Saff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 10
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae647",
+        "technical_debt": false
+    },
+    {
+        "filestate": "aeaecd2e8bb022049ed89021df1ec6c4dbb15f77",
+        "filehash": 1879328061,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/runner/FilterFactoriesTest.java",
+        "contributors": [
+            {
+                "email": "noel.yap+github.com@gmail.com",
+                "name": "Noel Yap",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@google.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae648",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 1973417759,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/junit/tests/framework/ComparisonCompactorTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "mengyanan@xiaomi.com",
+                "name": "mengyanan",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "REFUSED_PARENT_BEQUEST": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae649",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2691256717,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/main/java/org/junit/internal/runners/model/MultipleFailureException.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "saff@new-host-3.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@google.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae64a",
+        "technical_debt": false
+    },
+    {
+        "filestate": "123432f737b8d6e54937cf9f2e939b1e8f882e76",
+        "filehash": 2073584050,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/main/java/org/junit/runners/ParentRunner.java",
+        "contributors": [
+            {
+                "email": "brianberzins@gmail.com",
+                "name": "Brian Berzins (Murasaki)",
+                "colaborator": true
+            },
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "charlie@yandex-team.ru",
+                "name": "Dmitry Baev",
+                "colaborator": false
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            },
+            {
+                "email": "matthew@farwell.co.uk",
+                "name": "Matthew Farwell",
+                "colaborator": true
+            },
+            {
+                "email": "noreply@github.com",
+                "name": "GitHub",
+                "colaborator": true
+            },
+            {
+                "email": "alex.yursha@icloud.com",
+                "name": "Alex Yursha",
+                "colaborator": false
+            },
+            {
+                "email": "saff@new-host-3.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "rowan.hill@softwire.com",
+                "name": "Rowan Hill",
+                "colaborator": true
+            },
+            {
+                "email": "craig@motlin.com",
+                "name": "Craig P. Motlin",
+                "colaborator": true
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "florian-p@gmx.net",
+                "name": "flpa",
+                "colaborator": true
+            },
+            {
+                "email": "flpa.dev@zoho.com",
+                "name": "flpa",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "aisrael@gmail.com",
+                "name": "Alistair A. Israel",
+                "colaborator": true
+            },
+            {
+                "email": "saff+aa@google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@users.noreply.github.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "\u201cflorian-p@gmx.net\u201d",
+                "name": "\u201cflpa\u201d",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "scotto.alberto.86@gmail.com",
+                "name": "Alberto Scotto",
+                "colaborator": false
+            },
+            {
+                "email": "panchenko@users.noreply.github.com",
+                "name": "Alex Panchenko",
+                "colaborator": false
+            },
+            {
+                "email": "folyga@gmail.com",
+                "name": "Vladimir Gordiychuk",
+                "colaborator": false
+            },
+            {
+                "email": "tibor17@lycos.com",
+                "name": "Tibor Digana",
+                "colaborator": true
+            },
+            {
+                "email": "ricky@dius.com.au",
+                "name": "Ricky",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@google.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "COMMENT_CODE_DEBT": "/**\r\n* @deprecated Please use @link #ParentRunner(org.junit.runners.model.TestClass)}.\r\n* @since 4.12*/",
+            "FEATURE_ENVY": 1,
+            "COMMENT_DEFECT_DEBT": "/**\r\n* Adds to @code errors} a throwable for each problem noted with the test class (available from @link #getTestClass()}).\r\n* Default implementation adds an error for each method annotated with\r\n* @code @BeforeClass} or @code @AfterClass} that is not\r\n* @code public static void} with no arguments.*/"
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae64b",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 2644483391,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/main/java/org/junit/runners/Parameterized.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "david@saff.net",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "charlie@yandex-team.ru",
+                "name": "Dmitry Baev",
+                "colaborator": false
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            },
+            {
+                "email": "adrian.f.cole@gmail.com",
+                "name": "Adrian Cole",
+                "colaborator": false
+            },
+            {
+                "email": "mynameisdustinlam@gmail.com",
+                "name": "Dustin Lam",
+                "colaborator": true
+            },
+            {
+                "email": "matthew@farwell.co.uk",
+                "name": "Matthew Farwell",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@users.noreply.github.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "alex.yursha@icloud.com",
+                "name": "Alex Yursha",
+                "colaborator": false
+            },
+            {
+                "email": "jeremy.herault@gmail.com",
+                "name": "Jeremy Herault",
+                "colaborator": true
+            },
+            {
+                "email": "saff@new-host-3.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "vimilsaju@yahoo.com",
+                "name": "vimil",
+                "colaborator": false
+            },
+            {
+                "email": "esko.luontola@gmail.com",
+                "name": "Esko Luontola",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "panchenko@users.noreply.github.com",
+                "name": "Alex Panchenko",
+                "colaborator": false
+            },
+            {
+                "email": "kent@threeriversinstitute.org",
+                "name": "Kent Beck",
+                "colaborator": true
+            },
+            {
+                "email": "tibor17@lycos.com",
+                "name": "Tibor Digana",
+                "colaborator": true
+            },
+            {
+                "email": "mari@adobe.com",
+                "name": "Francesco Mari",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@google.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "bigmike@io.com",
+                "name": "Mike Forsberg",
+                "colaborator": false
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae64c",
+        "technical_debt": false
+    },
+    {
+        "filestate": "da0a727ebfcfee036d760d52f574f7b07aba7df2",
+        "filehash": 2112618224,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/validator/AnnotationValidatorFactoryTest.java",
+        "contributors": [
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "ricky@dius.com.au",
+                "name": "Ricky",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae64d",
+        "technical_debt": false
+    },
+    {
+        "filestate": "2b6fa701e84625c511b03079296774cc0904ef1a",
+        "filehash": 226422718,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT",
+            "DEFECT_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/running/classes/parent/TestWithClassRule.java",
+        "contributors": [
+            {
+                "email": "kcooney@users.noreply.github.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "folyga@gmail.com",
+                "name": "Vladimir Gordiychuk",
+                "colaborator": false
+            }
+        ],
+        "indicators": {
+            "COMMENT_CODE_DEBT": "/**\r\n* Annotates fields that reference rules or methods that return a rule. A field must be public, not\r\n* static, and a subtype of @link org.junit.rules.TestRule} (preferred) or\r\n* @link org.junit.rules.MethodRule}. A method must be public, not static,\r\n* and must return a subtype of @link org.junit.rules.TestRule} (preferred) or\r\n* @link org.junit.rules.MethodRule}.\r\n* <p>\r\n* The @link org.junit.runners.model.Statement} passed\r\n* to the @link org.junit.rules.TestRule} will run any @link Before} methods,\r\n* then the @link Test} method, and finally any @link After} methods,\r\n* throwing an exception if any of these fail. If there are multiple\r\n* annotated @link Rule}s on a class, they will be applied in order of methods first, then fields.\r\n* However, if there are multiple fields (or methods) they will be applied in an order\r\n* that depends on your JVM's implementation of the reflection API, which is\r\n* undefined, in general. Rules defined by fields will always be applied\r\n* after Rules defined by methods, i.e. the Statements returned by the former will\r\n* be executed around those returned by the latter. You can use a @link org.junit.rules.RuleChain}\r\n* if you want to have control over the order in which the Rules are applied.\r\n*\r\n* <p>\r\n* For example, here is a test class that creates a temporary folder before\r\n* each test method, and deletes it after each:\r\n* <pre>\r\n* public static class HasTempFolder\r\n* &amp;#064;Rule\r\n* public TemporaryFolder folder= new TemporaryFolder();\r\n*\r\n* &amp;#064;Test\r\n* public void testUsingTempFolder() throws IOException\r\n* File createdFile= folder.newFile(&amp;quot;myfile.txt&amp;quot;);\r\n* File createdFolder= folder.newFolder(&amp;quot;subfolder&amp;quot;);\r\n* // ...\r\n* }\r\n* }\r\n* </pre>\r\n* <p>\r\n* And the same using a method.\r\n* <pre>\r\n* public static class HasTempFolder\r\n* private TemporaryFolder folder= new TemporaryFolder();\r\n*\r\n* &amp;#064;Rule\r\n* public TemporaryFolder getFolder()\r\n* return folder;\r\n* }\r\n*\r\n* &amp;#064;Test\r\n* public void testUsingTempFolder() throws IOException\r\n* File createdFile= folder.newFile(&amp;quot;myfile.txt&amp;quot;);\r\n* File createdFolder= folder.newFolder(&amp;quot;subfolder&amp;quot;);\r\n* // ...\r\n* }\r\n* }\r\n* </pre>\r\n* <p>\r\n* For more information and more examples, see\r\n* @link org.junit.rules.TestRule}.\r\n*\r\n* @since 4.7*/",
+            "COMMENT_DEFECT_DEBT": "/**\r\n* Annotates fields that reference rules or methods that return a rule. A field must be public, not\r\n* static, and a subtype of @link org.junit.rules.TestRule} (preferred) or\r\n* @link org.junit.rules.MethodRule}. A method must be public, not static,\r\n* and must return a subtype of @link org.junit.rules.TestRule} (preferred) or\r\n* @link org.junit.rules.MethodRule}.\r\n* <p>\r\n* The @link org.junit.runners.model.Statement} passed\r\n* to the @link org.junit.rules.TestRule} will run any @link Before} methods,\r\n* then the @link Test} method, and finally any @link After} methods,\r\n* throwing an exception if any of these fail. If there are multiple\r\n* annotated @link Rule}s on a class, they will be applied in order of methods first, then fields.\r\n* However, if there are multiple fields (or methods) they will be applied in an order\r\n* that depends on your JVM's implementation of the reflection API, which is\r\n* undefined, in general. Rules defined by fields will always be applied\r\n* after Rules defined by methods, i.e. the Statements returned by the former will\r\n* be executed around those returned by the latter. You can use a @link org.junit.rules.RuleChain}\r\n* if you want to have control over the order in which the Rules are applied.\r\n*\r\n* <p>\r\n* For example, here is a test class that creates a temporary folder before\r\n* each test method, and deletes it after each:\r\n* <pre>\r\n* public static class HasTempFolder\r\n* &amp;#064;Rule\r\n* public TemporaryFolder folder= new TemporaryFolder();\r\n*\r\n* &amp;#064;Test\r\n* public void testUsingTempFolder() throws IOException\r\n* File createdFile= folder.newFile(&amp;quot;myfile.txt&amp;quot;);\r\n* File createdFolder= folder.newFolder(&amp;quot;subfolder&amp;quot;);\r\n* // ...\r\n* }\r\n* }\r\n* </pre>\r\n* <p>\r\n* And the same using a method.\r\n* <pre>\r\n* public static class HasTempFolder\r\n* private TemporaryFolder folder= new TemporaryFolder();\r\n*\r\n* &amp;#064;Rule\r\n* public TemporaryFolder getFolder()\r\n* return folder;\r\n* }\r\n*\r\n* &amp;#064;Test\r\n* public void testUsingTempFolder() throws IOException\r\n* File createdFile= folder.newFile(&amp;quot;myfile.txt&amp;quot;);\r\n* File createdFolder= folder.newFolder(&amp;quot;subfolder&amp;quot;);\r\n* // ...\r\n* }\r\n* }\r\n* </pre>\r\n* <p>\r\n* For more information and more examples, see\r\n* @link org.junit.rules.TestRule}.\r\n*\r\n* @since 4.7*/",
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1,
+            "COMMENT_DESIGN_DEBT": "/**\r\n* Annotates fields that reference rules or methods that return a rule. A field must be public, not\r\n* static, and a subtype of @link org.junit.rules.TestRule} (preferred) or\r\n* @link org.junit.rules.MethodRule}. A method must be public, not static,\r\n* and must return a subtype of @link org.junit.rules.TestRule} (preferred) or\r\n* @link org.junit.rules.MethodRule}.\r\n* <p>\r\n* The @link org.junit.runners.model.Statement} passed\r\n* to the @link org.junit.rules.TestRule} will run any @link Before} methods,\r\n* then the @link Test} method, and finally any @link After} methods,\r\n* throwing an exception if any of these fail. If there are multiple\r\n* annotated @link Rule}s on a class, they will be applied in order of methods first, then fields.\r\n* However, if there are multiple fields (or methods) they will be applied in an order\r\n* that depends on your JVM's implementation of the reflection API, which is\r\n* undefined, in general. Rules defined by fields will always be applied\r\n* after Rules defined by methods, i.e. the Statements returned by the former will\r\n* be executed around those returned by the latter. You can use a @link org.junit.rules.RuleChain}\r\n* if you want to have control over the order in which the Rules are applied.\r\n*\r\n* <p>\r\n* For example, here is a test class that creates a temporary folder before\r\n* each test method, and deletes it after each:\r\n* <pre>\r\n* public static class HasTempFolder\r\n* &amp;#064;Rule\r\n* public TemporaryFolder folder= new TemporaryFolder();\r\n*\r\n* &amp;#064;Test\r\n* public void testUsingTempFolder() throws IOException\r\n* File createdFile= folder.newFile(&amp;quot;myfile.txt&amp;quot;);\r\n* File createdFolder= folder.newFolder(&amp;quot;subfolder&amp;quot;);\r\n* // ...\r\n* }\r\n* }\r\n* </pre>\r\n* <p>\r\n* And the same using a method.\r\n* <pre>\r\n* public static class HasTempFolder\r\n* private TemporaryFolder folder= new TemporaryFolder();\r\n*\r\n* &amp;#064;Rule\r\n* public TemporaryFolder getFolder()\r\n* return folder;\r\n* }\r\n*\r\n* &amp;#064;Test\r\n* public void testUsingTempFolder() throws IOException\r\n* File createdFile= folder.newFile(&amp;quot;myfile.txt&amp;quot;);\r\n* File createdFolder= folder.newFolder(&amp;quot;subfolder&amp;quot;);\r\n* // ...\r\n* }\r\n* }\r\n* </pre>\r\n* <p>\r\n* For more information and more examples, see\r\n* @link org.junit.rules.TestRule}.\r\n*\r\n* @since 4.7*/"
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae64e",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3662065141,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/running/methods/ExpectedTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@users.noreply.github.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "scotto.alberto.86@gmail.com",
+                "name": "Alberto Scotto",
+                "colaborator": false
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1,
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae64f",
+        "technical_debt": false
+    },
+    {
+        "filestate": "a9815c0f1419e20b6282c3944195083bb38deaa9",
+        "filehash": 321338782,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/main/java/org/junit/runners/model/FrameworkMethod.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            },
+            {
+                "email": "pimterry@gmail.com",
+                "name": "pimterry",
+                "colaborator": true
+            },
+            {
+                "email": "matthew@farwell.co.uk",
+                "name": "Matthew Farwell",
+                "colaborator": true
+            },
+            {
+                "email": "noreply@github.com",
+                "name": "GitHub",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@users.noreply.github.com",
+                "name": "Kevin Cooney",
+                "colaborator": false
+            },
+            {
+                "email": "alex.yursha@icloud.com",
+                "name": "Alex Yursha",
+                "colaborator": false
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "florian-p@gmx.net",
+                "name": "flpa",
+                "colaborator": true
+            },
+            {
+                "email": "pholser@alumni.rice.edu",
+                "name": "Paul Holser",
+                "colaborator": true
+            },
+            {
+                "email": "st.ferstl@gmail.com",
+                "name": "Stefan Ferstl",
+                "colaborator": true
+            },
+            {
+                "email": "flpa.dev@zoho.com",
+                "name": "flpa",
+                "colaborator": true
+            },
+            {
+                "email": "kcooney@google.com",
+                "name": "Kevin Cooney",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "COMMENT_CODE_DEBT": "/**\r\n* Returns true if this is a no-arg method that returns a value assignable\r\n* to @code type}\r\n*\r\n* @deprecated This is used only by the Theories runner, and does not\r\n* use all the generic type info that it ought to. It will be replaced\r\n* with a forthcoming ParameterSignature#canAcceptResultOf(FrameworkMethod)\r\n* once Theories moves to junit-contrib.*/",
+            "FEATURE_ENVY": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae650",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 3347070920,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/running/core/CommandLineTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "matthew@farwell.co.uk",
+                "name": "Matthew Farwell",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 5
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae651",
+        "technical_debt": false
+    },
+    {
+        "filestate": "7d07b8db30db7ee0d7220af40fff25f22aae2c9e",
+        "filehash": 2886592143,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/validation/BadlyFormedClassesTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            },
+            {
+                "email": "scotto.alberto.86@gmail.com",
+                "name": "Alberto Scotto",
+                "colaborator": false
+            }
+        ],
+        "indicators": {
+            "FEATURE_ENVY": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae652",
+        "technical_debt": false
+    },
+    {
+        "filestate": "4d0d182424f462cb29b74c99d352d3bf4beb1e05",
+        "filehash": 2102211613,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/rules/ExpectedExceptionTest.java",
+        "contributors": [
+            {
+                "email": "paulduffin@google.com",
+                "name": "Paul Duffin",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 3
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae653",
+        "technical_debt": false
+    },
+    {
+        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
+        "filehash": 1614218264,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/theories/runner/WhenNoParametersMatch.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "dsaff",
+                "name": "dsaff",
+                "colaborator": true
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 3
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae654",
+        "technical_debt": false
+    },
+    {
+        "filestate": "7d07b8db30db7ee0d7220af40fff25f22aae2c9e",
+        "filehash": 4207281406,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/deprecated/JUnit4ClassRunnerTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "mail@stefan-birkner.de",
+                "name": "Stefan Birkner",
+                "colaborator": true
+            },
+            {
+                "email": "mail@marcphilipp.de",
+                "name": "Marc Philipp",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "COMMENT_CODE_DEBT": "/**\r\n* @deprecated This is a simple smoke test to make sure the old JUnit4ClassRunner basically works.\r\n* Delete this test when JUnit4ClassRunner goes to the Great Heap In The Sky.*/",
+            "FEATURE_ENVY": 1
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae655",
+        "technical_debt": false
+    },
+    {
+        "filestate": "d9c81356e3a2fbb165c71b32d63d0cc39a1bd861",
+        "filehash": 1047902444,
+        "repository": "595e1e6fb8a9f919be23e132",
+        "reference_name": "master",
+        "debts": [
+            "DESIGN_DEBT",
+            "CODE_DEBT"
+        ],
+        "reference_type": "BRANCH",
+        "commit_date": "2017-06-23T21:16:19.000+0000",
+        "filename": "src/test/java/org/junit/tests/experimental/max/JUnit38SortingTest.java",
+        "contributors": [
+            {
+                "email": "awulder@xebia.com",
+                "name": "Arjan Wulder",
+                "colaborator": true
+            },
+            {
+                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@new-host.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "saff@redredrobot.home",
+                "name": "David Saff",
+                "colaborator": true
+            },
+            {
+                "email": "kbeck",
+                "name": "kbeck",
+                "colaborator": true
+            }
+        ],
+        "indicators": {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
+        },
+        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
+        "_id": "5960f333b8a9f9152e4ae656",
+        "technical_debt": false
+    }
+]
