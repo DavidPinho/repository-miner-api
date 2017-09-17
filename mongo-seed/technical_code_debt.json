@@ -5,10 +5,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r3.8.2",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT",
-            "DEFECT_DEBT",
-            "TEST_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2004-12-28T17:19:01.000+0000",
@@ -45,8 +57,14 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r3.8.2",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2004-12-28T17:19:01.000+0000",
@@ -71,8 +89,14 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r3.8.2",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2004-12-28T17:19:01.000+0000",
@@ -110,8 +134,10 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r3.8.2",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2004-12-28T17:19:01.000+0000",
@@ -142,8 +168,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r3.8.2",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2004-12-28T17:19:01.000+0000",
@@ -174,8 +214,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.6",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-04-14T02:07:14.000+0000",
@@ -215,8 +269,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.6",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-04-14T02:07:14.000+0000",
@@ -247,8 +315,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.6",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-04-14T02:07:14.000+0000",
@@ -278,8 +360,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.6",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-04-14T02:07:14.000+0000",
@@ -305,8 +401,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.6",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-04-14T02:07:14.000+0000",
@@ -331,8 +441,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.6",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-04-14T02:07:14.000+0000",
@@ -357,9 +481,18 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.7",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT",
-            "DEFECT_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-07-28T02:16:50.000+0000",
@@ -387,8 +520,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.7",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-07-28T02:16:50.000+0000",
@@ -416,8 +563,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.7",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-07-28T02:16:50.000+0000",
@@ -444,8 +605,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.7",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-07-28T02:16:50.000+0000",
@@ -470,8 +645,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.7",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-07-28T02:16:50.000+0000",
@@ -496,9 +685,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.8",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT",
-            "DEFECT_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-12-01T04:08:09.000+0000",
@@ -526,8 +728,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.8",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-12-01T04:08:09.000+0000",
@@ -555,8 +771,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.8",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-12-01T04:08:09.000+0000",
@@ -583,8 +813,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.8",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-12-01T04:08:09.000+0000",
@@ -609,8 +853,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.8",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2009-12-01T04:08:09.000+0000",
@@ -635,9 +893,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.9",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT",
-            "DEFECT_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2011-08-22T18:20:52.000+0000",
@@ -666,8 +937,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.9",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2011-08-22T18:20:52.000+0000",
@@ -692,8 +977,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.9",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2011-08-22T18:20:52.000+0000",
@@ -718,8 +1017,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.9",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2011-08-22T18:20:52.000+0000",
@@ -775,9 +1088,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.9",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT",
-            "DEFECT_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2011-08-22T18:20:52.000+0000",
@@ -803,9 +1129,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.9",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT",
-            "DEFECT_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2011-08-22T18:20:52.000+0000",
@@ -831,9 +1170,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.10",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT",
-            "DEFECT_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2011-09-29T18:18:35.000+0000",
@@ -866,8 +1218,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.10",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2011-09-29T18:18:35.000+0000",
@@ -892,8 +1258,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.10",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2011-09-29T18:18:35.000+0000",
@@ -924,8 +1304,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.10",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2011-09-29T18:18:35.000+0000",
@@ -981,9 +1375,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.11",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT",
-            "DEFECT_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2012-11-13T20:10:09.000+0000",
@@ -1021,8 +1428,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.11",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2012-11-13T20:10:09.000+0000",
@@ -1052,8 +1473,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.11",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2012-11-13T20:10:09.000+0000",
@@ -1089,8 +1524,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.11",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2012-11-13T20:10:09.000+0000",
@@ -1166,9 +1615,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.11",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT",
-            "DEFECT_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2012-11-13T20:10:09.000+0000",
@@ -1195,517 +1657,26 @@
     },
     {
         "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 3923430781,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "r4.11",
-        "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT",
-            "DEFECT_DEBT"
-        ],
-        "reference_type": "TAG",
-        "commit_date": "2012-11-13T20:10:09.000+0000",
-        "filename": "src/main/java/org/junit/ComparisonFailure.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "matthew@farwell.co.uk",
-                "name": "Matthew Farwell",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "DUPLICATED_CODE": 2,
-            "COMMENT_DEFECT_DEBT": "/**\r\n* Thrown when an @link org.junit.Assert#assertEquals(Object, Object) assertEquals(String, String)} fails. Create and throw\r\n* a <code>ComparisonFailure</code> manually if you want to show users the difference between two complex\r\n* strings.\r\n*\r\n* Inspired by a patch from Alex Chaffee (alex@purpletech.com)*/"
-        },
-        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
-        "_id": "595e40edb8a9f9292f4c4971",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 336009984,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "r4.11",
-        "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
-        ],
-        "reference_type": "TAG",
-        "commit_date": "2012-11-13T20:10:09.000+0000",
-        "filename": "src/test/java/org/junit/samples/SimpleTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1,
-            "SLOW_ALGORITHM": 1
-        },
-        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
-        "_id": "595e40edb8a9f9292f4c4972",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 3264597696,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "r4.11",
-        "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
-        ],
-        "reference_type": "TAG",
-        "commit_date": "2012-11-13T20:10:09.000+0000",
-        "filename": "src/test/java/org/junit/tests/manipulation/SingleMethodTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "saff@redredrobot.home",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "FEATURE_ENVY": 1,
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 4
-        },
-        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
-        "_id": "595e40edb8a9f9292f4c4973",
-        "technical_debt": false
-    },
-    {
-        "filestate": "97afc5e205e1c6ac0f5a9aefabed92d58d88ab81",
-        "filehash": 1473069303,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "r4.11",
-        "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
-        ],
-        "reference_type": "TAG",
-        "commit_date": "2012-11-13T20:10:09.000+0000",
-        "filename": "src/test/java/org/junit/tests/experimental/rules/TempFolderRuleTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "matthew@farwell.co.uk",
-                "name": "Matthew Farwell",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "daniel.rothmaler@nubix.biz",
-                "name": "Daniel Rothmaler",
-                "colaborator": false
-            },
-            {
-                "email": "rodolfoliviero@gmail.com",
-                "name": "rodolfoliviero",
-                "colaborator": true
-            },
-            {
-                "email": "esko.luontola@gmail.com",
-                "name": "Esko Luontola",
-                "colaborator": true
-            },
-            {
-                "email": "mail@marcphilipp.de",
-                "name": "Marc Philipp",
-                "colaborator": true
-            },
-            {
-                "email": "saff@redredrobot.home",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "simplyarjen@gmail.com",
-                "name": "Arjen Stolk",
-                "colaborator": true
-            },
-            {
-                "email": "daniel_rothmaler@web.de",
-                "name": "Daniel Rothmaler",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "DUPLICATED_CODE": 1,
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 6
-        },
-        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
-        "_id": "595e40edb8a9f9292f4c4974",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8c61443793e4c2e90a4056ee528c3880febb53d2",
-        "filehash": 455865002,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "r4.11",
-        "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
-        ],
-        "reference_type": "TAG",
-        "commit_date": "2012-11-13T20:10:09.000+0000",
-        "filename": "src/main/java/org/junit/internal/runners/MethodRoadie.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "FEATURE_ENVY": 1
-        },
-        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
-        "_id": "595e40edb8a9f9292f4c4975",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 2847460319,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "r4.11",
-        "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
-        ],
-        "reference_type": "TAG",
-        "commit_date": "2012-11-13T20:10:09.000+0000",
-        "filename": "src/main/java/org/junit/experimental/theories/internal/ParameterizedAssertionError.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
-        },
-        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
-        "_id": "595e40edb8a9f9292f4c4976",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 877298070,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "r4.11",
-        "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
-        ],
-        "reference_type": "TAG",
-        "commit_date": "2012-11-13T20:10:09.000+0000",
-        "filename": "src/test/java/org/junit/tests/running/methods/ParameterizedTestMethodTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "DUPLICATED_CODE": 1
-        },
-        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
-        "_id": "595e40edb8a9f9292f4c4977",
-        "technical_debt": false
-    },
-    {
-        "filestate": "93346b959c96b3e90e4f3f3b015f7049ed4624ed",
-        "filehash": 3590290330,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "r4.11",
-        "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
-        ],
-        "reference_type": "TAG",
-        "commit_date": "2012-11-13T20:10:09.000+0000",
-        "filename": "src/test/java/org/junit/tests/experimental/rules/TemporaryFolderUsageTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "vyazelenko@yahoo.com",
-                "name": "Dmitry Vyazelenko",
-                "colaborator": true
-            },
-            {
-                "email": "shs@google.com",
-                "name": "Simon Stewart",
-                "colaborator": true
-            },
-            {
-                "email": "gezr@a11.(none)",
-                "name": "unknown",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "DUPLICATED_CODE": 3,
-            "FEATURE_ENVY": 1
-        },
-        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
-        "_id": "595e40edb8a9f9292f4c4978",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 2619987268,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "r4.11",
-        "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT",
-            "DEFECT_DEBT"
-        ],
-        "reference_type": "TAG",
-        "commit_date": "2012-11-13T20:10:09.000+0000",
-        "filename": "src/main/java/org/junit/experimental/results/PrintableResult.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "saff@redredrobot.home",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "saff@redredrobot.local",
-                "name": "David Saff",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "COMMENT_DEFECT_DEBT": "/**\r\n* A test result that prints nicely in error messages.\r\n* This is only intended to be used in JUnit self-tests.\r\n* For example:\r\n*\r\n* <pre>\r\n* assertThat(testResult(HasExpectedException.class), isSuccessful());\r\n* </pre>*/",
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
-        },
-        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
-        "_id": "595e40edb8a9f9292f4c4979",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 3591743889,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "r4.11",
-        "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT",
-            "DEFECT_DEBT"
-        ],
-        "reference_type": "TAG",
-        "commit_date": "2012-11-13T20:10:09.000+0000",
-        "filename": "src/test/java/junit/tests/framework/AssertTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "kcooney@google.com",
-                "name": "Kevin Cooney",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "DUPLICATED_CODE": 1,
-            "SLOW_ALGORITHM": 2,
-            "COMMENT_DEFECT_DEBT": "// Also, we are testing fail, so we can't rely on fail() working.",
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 5,
-            "REFUSED_PARENT_BEQUEST": 1
-        },
-        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
-        "_id": "595e40edb8a9f9292f4c497a",
-        "technical_debt": false
-    },
-    {
-        "filestate": "96d7dd609920deb1336cf85dc6c9a3a0d5e30d15",
-        "filehash": 109517768,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "r4.11",
-        "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
-        ],
-        "reference_type": "TAG",
-        "commit_date": "2012-11-13T20:10:09.000+0000",
-        "filename": "src/main/java/org/junit/internal/runners/statements/ExpectException.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
-        },
-        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
-        "_id": "595e40edb8a9f9292f4c497b",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 136469348,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "r4.11",
-        "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
-        ],
-        "reference_type": "TAG",
-        "commit_date": "2012-11-13T20:10:09.000+0000",
-        "filename": "src/main/java/junit/framework/ComparisonCompactor.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "DUPLICATED_CODE": 2
-        },
-        "commit": "c2e4d911fadfbd64444fb285342a8f1b72336169",
-        "_id": "595e40edb8a9f9292f4c497c",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
         "filehash": 2425774882,
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.11",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2012-11-13T20:10:09.000+0000",
@@ -1744,8 +1715,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.11",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2012-11-13T20:10:09.000+0000",
@@ -1775,8 +1760,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.11",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2012-11-13T20:10:09.000+0000",
@@ -1807,8 +1806,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.12",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2014-12-04T16:13:56.000+0000",
@@ -1838,8 +1851,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.12",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2014-12-04T16:13:56.000+0000",
@@ -1875,8 +1902,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.12",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2014-12-04T16:13:56.000+0000",
@@ -1957,9 +1998,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.12",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT",
-            "DEFECT_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2014-12-04T16:13:56.000+0000",
@@ -2000,8 +2054,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.12",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2014-12-04T16:13:56.000+0000",
@@ -2037,8 +2105,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.12",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2014-12-04T16:13:56.000+0000",
@@ -2084,8 +2166,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "r4.12",
         "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "TAG",
         "commit_date": "2014-12-04T16:13:56.000+0000",
@@ -2106,866 +2202,27 @@
         "technical_debt": false
     },
     {
-        "filestate": "97afc5e205e1c6ac0f5a9aefabed92d58d88ab81",
-        "filehash": 1473069303,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "r4.12",
-        "debts": [
-            "CODE_DEBT",
-            "DESIGN_DEBT"
-        ],
-        "reference_type": "TAG",
-        "commit_date": "2014-12-04T16:13:56.000+0000",
-        "filename": "src/test/java/org/junit/tests/experimental/rules/TempFolderRuleTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "matthew@farwell.co.uk",
-                "name": "Matthew Farwell",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "daniel.rothmaler@nubix.biz",
-                "name": "Daniel Rothmaler",
-                "colaborator": false
-            },
-            {
-                "email": "rodolfoliviero@gmail.com",
-                "name": "rodolfoliviero",
-                "colaborator": true
-            },
-            {
-                "email": "esko.luontola@gmail.com",
-                "name": "Esko Luontola",
-                "colaborator": true
-            },
-            {
-                "email": "mail@marcphilipp.de",
-                "name": "Marc Philipp",
-                "colaborator": true
-            },
-            {
-                "email": "saff@redredrobot.home",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "simplyarjen@gmail.com",
-                "name": "Arjen Stolk",
-                "colaborator": true
-            },
-            {
-                "email": "daniel_rothmaler@web.de",
-                "name": "Daniel Rothmaler",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "DUPLICATED_CODE": 1,
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 6
-        },
-        "commit": "64155f8a9babcfcf4263cf4d08253a1556e75481",
-        "_id": "595e40f8b8a9f9292f4c49fe",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 2678669351,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT",
-            "DEFECT_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2012-10-04T21:16:19.000+0000",
-        "filename": "src/test/java/junit/samples/SimpleTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "COMMENT_DEFECT_DEBT": "/**\r\n* Optionally specify <code>timeout</code> in milliseconds to cause a test method to fail if it\r\n* takes longer than that number of milliseconds.\r\n* <p>\r\n* <b>THREAD SAFETY WARNING:</b> Test methods with a timeout parameter are run in a thread other than the\r\n* thread which runs the fixture's @Before and @After methods. This may yield different behavior for\r\n* code that is not thread safe when compared to the same test method without a timeout parameter.\r\n* <b>Consider using the @link org.junit.rules.Timeout} rule instead</b>, which ensures a test method is run on the\r\n* same thread as the fixture's @Before and @After methods.\r\n* </p>*/",
-            "SLOW_ALGORITHM": 1,
-            "COMMENT_ANALYSIS": 1,
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2,
-            "REFUSED_PARENT_BEQUEST": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae631",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 1019709840,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2012-10-04T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/MethodCall.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae632",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 4019448035,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/tests/running/classes/ParameterizedTestTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "mail@stefan-birkner.de",
-                "name": "Stefan Birkner",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            },
-            {
-                "email": "kcooney@users.noreply.github.com",
-                "name": "Kevin Cooney",
-                "colaborator": true
-            },
-            {
-                "email": "jeremy.herault@gmail.com",
-                "name": "Jeremy Herault",
-                "colaborator": true
-            },
-            {
-                "email": "saff@new-host-3.home",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "vimilsaju@yahoo.com",
-                "name": "vimil",
-                "colaborator": false
-            },
-            {
-                "email": "mail@marcphilipp.de",
-                "name": "Marc Philipp",
-                "colaborator": true
-            },
-            {
-                "email": "saff@redredrobot.home",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "scotto.alberto.86@gmail.com",
-                "name": "Alberto Scotto",
-                "colaborator": false
-            },
-            {
-                "email": "panchenko@users.noreply.github.com",
-                "name": "Alex Panchenko",
-                "colaborator": false
-            },
-            {
-                "email": "bigmike@io.com",
-                "name": "Mike Forsberg",
-                "colaborator": false
-            }
-        ],
-        "indicators": {
-            "FEATURE_ENVY": 1,
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 7
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae633",
-        "technical_debt": false
-    },
-    {
-        "filestate": "4d0d182424f462cb29b74c99d352d3bf4beb1e05",
-        "filehash": 1022827199,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/rules/VerifierRuleTest.java",
-        "contributors": [
-            {
-                "email": "mail@marcphilipp.de",
-                "name": "Marc Philipp",
-                "colaborator": true
-            },
-            {
-                "email": "paulduffin@google.com",
-                "name": "Paul Duffin",
-                "colaborator": true
-            },
-            {
-                "email": "kcooney@google.com",
-                "name": "Kevin Cooney",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae634",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 336009984,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/samples/SimpleTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "paulduffin@google.com",
-                "name": "Paul Duffin",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1,
-            "SLOW_ALGORITHM": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae635",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 3264597696,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/tests/manipulation/SingleMethodTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "saff@redredrobot.home",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "FEATURE_ENVY": 1,
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 4
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae636",
-        "technical_debt": false
-    },
-    {
-        "filestate": "7d07b8db30db7ee0d7220af40fff25f22aae2c9e",
-        "filehash": 455865002,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/main/java/org/junit/internal/runners/MethodRoadie.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "mail@stefan-birkner.de",
-                "name": "Stefan Birkner",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "github@locha.se",
-                "name": "Andreas Skoog",
-                "colaborator": true
-            },
-            {
-                "email": "mail@marcphilipp.de",
-                "name": "Marc Philipp",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "FEATURE_ENVY": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae637",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 877298070,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/tests/running/methods/ParameterizedTestMethodTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "DUPLICATED_CODE": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae638",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 2619987268,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT",
-            "DEFECT_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/main/java/org/junit/experimental/results/PrintableResult.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "saff@redredrobot.home",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "kcooney@google.com",
-                "name": "Kevin Cooney",
-                "colaborator": true
-            },
-            {
-                "email": "saff@redredrobot.local",
-                "name": "David Saff",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "COMMENT_DEFECT_DEBT": "/**\r\n* A test result that prints nicely in error messages.\r\n* This is only intended to be used in JUnit self-tests.\r\n* For example:\r\n*\r\n* <pre>\r\n* assertThat(testResult(HasExpectedException.class), isSuccessful());\r\n* </pre>*/",
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae639",
-        "technical_debt": false
-    },
-    {
-        "filestate": "2b6fa701e84625c511b03079296774cc0904ef1a",
-        "filehash": 333670404,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/tests/running/classes/parent/ParentRunnerClassLoaderTest.java",
-        "contributors": [
-            {
-                "email": "kcooney@users.noreply.github.com",
-                "name": "Kevin Cooney",
-                "colaborator": true
-            },
-            {
-                "email": "folyga@gmail.com",
-                "name": "Vladimir Gordiychuk",
-                "colaborator": false
-            }
-        ],
-        "indicators": {
-            "FEATURE_ENVY": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae63a",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 3591743889,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT",
-            "DEFECT_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/junit/tests/framework/AssertTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "kcooney@google.com",
-                "name": "Kevin Cooney",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "SLOW_ALGORITHM": 2,
-            "COMMENT_DEFECT_DEBT": "// Also, we are testing fail, so we can't rely on fail() working.",
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 5,
-            "REFUSED_PARENT_BEQUEST": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae63b",
-        "technical_debt": false
-    },
-    {
-        "filestate": "96d7dd609920deb1336cf85dc6c9a3a0d5e30d15",
-        "filehash": 109517768,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/main/java/org/junit/internal/runners/statements/ExpectException.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "david@saff.net",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "kcooney@users.noreply.github.com",
-                "name": "Kevin Cooney",
-                "colaborator": true
-            },
-            {
-                "email": "alex.yursha@icloud.com",
-                "name": "Alex Yursha",
-                "colaborator": false
-            },
-            {
-                "email": "mail@stefan-birkner.de",
-                "name": "Stefan Birkner",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            },
-            {
-                "email": "scotto.alberto.86@gmail.com",
-                "name": "Alberto Scotto",
-                "colaborator": false
-            }
-        ],
-        "indicators": {
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae63c",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 2425774882,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/main/java/junit/runner/BaseTestRunner.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "kcooney@users.noreply.github.com",
-                "name": "Kevin Cooney",
-                "colaborator": true
-            },
-            {
-                "email": "mail@stefan-birkner.de",
-                "name": "Stefan Birkner",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "mail@marcphilipp.de",
-                "name": "Marc Philipp",
-                "colaborator": true
-            },
-            {
-                "email": "bauer.vlad@gmail.com",
-                "name": "Vladislav Bauer",
-                "colaborator": true
-            },
-            {
-                "email": "scotto.alberto.86@gmail.com",
-                "name": "Alberto Scotto",
-                "colaborator": false
-            },
-            {
-                "email": "m.allamanis@ed.ac.uk",
-                "name": "Miltos Allamanis",
-                "colaborator": true
-            },
-            {
-                "email": "trejkaz@trypticon.org",
-                "name": "Trejkaz (pen name)",
-                "colaborator": false
-            },
-            {
-                "email": "kcooney@google.com",
-                "name": "Kevin Cooney",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "FEATURE_ENVY": 1,
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 4,
-            "MULTITHREAD_CORRECTNESS": 1,
-            "GOD_CLASS": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae63d",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 3507154267,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/junit/tests/framework/FloatAssertTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "FEATURE_ENVY": 1,
-            "REFUSED_PARENT_BEQUEST": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae63e",
-        "technical_debt": false
-    },
-    {
-        "filestate": "f34c4435ebeea2dc4dd91b8242a2defdf14d7d5c",
-        "filehash": 3876931451,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/internal/ChecksTest.java",
-        "contributors": [
-            {
-                "email": "kcooney@google.com",
-                "name": "Kevin Cooney",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae63f",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 4225084717,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/main/java/org/junit/internal/runners/SuiteMethod.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "FEATURE_ENVY": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae640",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 754926488,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/tests/junit3compatibility/AllTestsTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "mail@marcphilipp.de",
-                "name": "Marc Philipp",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae641",
-        "technical_debt": false
-    },
-    {
         "filestate": "d9c908b9aab5f610e2f42aba1863ce25e36423f2",
         "filehash": 2624118312,
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "master",
         "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT",
-            "REQUIREMENT_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "BRANCH",
         "commit_date": "2015-05-21T21:16:19.000+0000",
@@ -3018,8 +2275,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "master",
         "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "BRANCH",
         "commit_date": "2017-06-23T21:16:19.000+0000",
@@ -3065,8 +2336,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "master",
         "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "BRANCH",
         "commit_date": "2017-06-23T21:16:19.000+0000",
@@ -3121,8 +2406,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "master",
         "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "BRANCH",
         "commit_date": "2017-06-23T21:16:19.000+0000",
@@ -3177,8 +2476,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "master",
         "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "BRANCH",
         "commit_date": "2017-06-23T21:16:19.000+0000",
@@ -3218,8 +2531,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "master",
         "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "BRANCH",
         "commit_date": "2017-06-23T21:16:19.000+0000",
@@ -3275,8 +2602,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "master",
         "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
         ],
         "reference_type": "BRANCH",
         "commit_date": "2017-06-23T21:16:19.000+0000",
@@ -3306,8 +2647,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "master",
         "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "BRANCH",
         "commit_date": "2017-06-23T21:16:19.000+0000",
@@ -3342,8 +2697,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "master",
         "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "BRANCH",
         "commit_date": "2017-06-23T21:16:19.000+0000",
@@ -3383,9 +2752,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "master",
         "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT",
-            "DEFECT_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "BRANCH",
         "commit_date": "2017-06-23T21:16:19.000+0000",
@@ -3547,8 +2929,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "master",
         "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "BRANCH",
         "commit_date": "2017-06-23T21:16:19.000+0000",
@@ -3683,8 +3079,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "master",
         "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "BRANCH",
         "commit_date": "2017-06-23T21:16:19.000+0000",
@@ -3714,9 +3124,22 @@
         "repository": "595e1e6fb8a9f919be23e132",
         "reference_name": "master",
         "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT",
-            "DEFECT_DEBT"
+            {
+                "name": "CODE_DEBT",
+                "value": 2
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 2
+            }
         ],
         "reference_type": "BRANCH",
         "commit_date": "2017-06-23T21:16:19.000+0000",
@@ -3741,392 +3164,6 @@
         },
         "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
         "_id": "5960f333b8a9f9152e4ae64e",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 3662065141,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/tests/running/methods/ExpectedTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "kcooney@users.noreply.github.com",
-                "name": "Kevin Cooney",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "scotto.alberto.86@gmail.com",
-                "name": "Alberto Scotto",
-                "colaborator": false
-            }
-        ],
-        "indicators": {
-            "FEATURE_ENVY": 1,
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae64f",
-        "technical_debt": false
-    },
-    {
-        "filestate": "a9815c0f1419e20b6282c3944195083bb38deaa9",
-        "filehash": 321338782,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/main/java/org/junit/runners/model/FrameworkMethod.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "mail@stefan-birkner.de",
-                "name": "Stefan Birkner",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            },
-            {
-                "email": "pimterry@gmail.com",
-                "name": "pimterry",
-                "colaborator": true
-            },
-            {
-                "email": "matthew@farwell.co.uk",
-                "name": "Matthew Farwell",
-                "colaborator": true
-            },
-            {
-                "email": "noreply@github.com",
-                "name": "GitHub",
-                "colaborator": true
-            },
-            {
-                "email": "kcooney@users.noreply.github.com",
-                "name": "Kevin Cooney",
-                "colaborator": false
-            },
-            {
-                "email": "alex.yursha@icloud.com",
-                "name": "Alex Yursha",
-                "colaborator": false
-            },
-            {
-                "email": "saff@redredrobot.home",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "florian-p@gmx.net",
-                "name": "flpa",
-                "colaborator": true
-            },
-            {
-                "email": "pholser@alumni.rice.edu",
-                "name": "Paul Holser",
-                "colaborator": true
-            },
-            {
-                "email": "st.ferstl@gmail.com",
-                "name": "Stefan Ferstl",
-                "colaborator": true
-            },
-            {
-                "email": "flpa.dev@zoho.com",
-                "name": "flpa",
-                "colaborator": true
-            },
-            {
-                "email": "kcooney@google.com",
-                "name": "Kevin Cooney",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "COMMENT_CODE_DEBT": "/**\r\n* Returns true if this is a no-arg method that returns a value assignable\r\n* to @code type}\r\n*\r\n* @deprecated This is used only by the Theories runner, and does not\r\n* use all the generic type info that it ought to. It will be replaced\r\n* with a forthcoming ParameterSignature#canAcceptResultOf(FrameworkMethod)\r\n* once Theories moves to junit-contrib.*/",
-            "FEATURE_ENVY": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae650",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 3347070920,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/tests/running/core/CommandLineTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "matthew@farwell.co.uk",
-                "name": "Matthew Farwell",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 5
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae651",
-        "technical_debt": false
-    },
-    {
-        "filestate": "7d07b8db30db7ee0d7220af40fff25f22aae2c9e",
-        "filehash": 2886592143,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/tests/validation/BadlyFormedClassesTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "mail@stefan-birkner.de",
-                "name": "Stefan Birkner",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "mail@marcphilipp.de",
-                "name": "Marc Philipp",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            },
-            {
-                "email": "scotto.alberto.86@gmail.com",
-                "name": "Alberto Scotto",
-                "colaborator": false
-            }
-        ],
-        "indicators": {
-            "FEATURE_ENVY": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae652",
-        "technical_debt": false
-    },
-    {
-        "filestate": "4d0d182424f462cb29b74c99d352d3bf4beb1e05",
-        "filehash": 2102211613,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/rules/ExpectedExceptionTest.java",
-        "contributors": [
-            {
-                "email": "paulduffin@google.com",
-                "name": "Paul Duffin",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 3
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae653",
-        "technical_debt": false
-    },
-    {
-        "filestate": "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9",
-        "filehash": 1614218264,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/tests/experimental/theories/runner/WhenNoParametersMatch.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "dsaff",
-                "name": "dsaff",
-                "colaborator": true
-            },
-            {
-                "email": "mail@marcphilipp.de",
-                "name": "Marc Philipp",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 3
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae654",
-        "technical_debt": false
-    },
-    {
-        "filestate": "7d07b8db30db7ee0d7220af40fff25f22aae2c9e",
-        "filehash": 4207281406,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/tests/deprecated/JUnit4ClassRunnerTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "mail@stefan-birkner.de",
-                "name": "Stefan Birkner",
-                "colaborator": true
-            },
-            {
-                "email": "mail@marcphilipp.de",
-                "name": "Marc Philipp",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "COMMENT_CODE_DEBT": "/**\r\n* @deprecated This is a simple smoke test to make sure the old JUnit4ClassRunner basically works.\r\n* Delete this test when JUnit4ClassRunner goes to the Great Heap In The Sky.*/",
-            "FEATURE_ENVY": 1
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae655",
-        "technical_debt": false
-    },
-    {
-        "filestate": "d9c81356e3a2fbb165c71b32d63d0cc39a1bd861",
-        "filehash": 1047902444,
-        "repository": "595e1e6fb8a9f919be23e132",
-        "reference_name": "master",
-        "debts": [
-            "DESIGN_DEBT",
-            "CODE_DEBT"
-        ],
-        "reference_type": "BRANCH",
-        "commit_date": "2017-06-23T21:16:19.000+0000",
-        "filename": "src/test/java/org/junit/tests/experimental/max/JUnit38SortingTest.java",
-        "contributors": [
-            {
-                "email": "awulder@xebia.com",
-                "name": "Arjan Wulder",
-                "colaborator": true
-            },
-            {
-                "email": "saff@dhcp-172-31-197-71.cam.corp.google.com",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "saff@new-host.home",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "saff@redredrobot.home",
-                "name": "David Saff",
-                "colaborator": true
-            },
-            {
-                "email": "kbeck",
-                "name": "kbeck",
-                "colaborator": true
-            }
-        ],
-        "indicators": {
-            "AUTOMATIC_STATIC_ANALYSIS_ISSUES": 2
-        },
-        "commit": "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c",
-        "_id": "5960f333b8a9f9152e4ae656",
         "technical_debt": false
     }
 ]
