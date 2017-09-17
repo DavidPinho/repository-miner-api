@@ -20,4 +20,14 @@ function listByRepository(req, res, next) {
     .catch(e => next(e));
 }
 
-export default { list, listByRepository };
+/**
+ * Get enhanced Reference list filtered by Repository.
+ * @returns {Reference[]}
+ */
+function listEnhancedByRepository(req, res, next) {
+  Reference.listEnhancedByRepository(req.params.repositoryId)
+    .then(reference => res.json(reference))
+    .catch(e => next(e));
+}
+
+export default { list, listByRepository, listEnhancedByRepository };

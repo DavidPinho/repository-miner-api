@@ -66,11 +66,45 @@ ReferenceSchema.statics = {
             repository: 1,
             path: 1,
             type: 1,
-            commits: 1,
             commitsLength: { $size: '$commits' }
           }
         },
         { $sort: { commitsLength: -1 } }
+      ]
+    )
+      .exec();
+  },
+
+  /**
+   * List References with some extra fields filtered by repository id.
+   */
+  listEnhancedByRepository(repositoryId) {
+    return this.aggregate(
+      [
+        {
+          $match: {
+            repository: repositoryId
+          }
+        },
+        {
+          $project: {
+            name: 1,
+            repository: 1,
+            path: 1,
+            type: 1,
+            commitsLength: { $size: '$commits' }
+          }
+        },  
+        {
+          $lookup:
+            {
+              from: "technical_code_debt",
+              localField: "name",
+              foreignField: "reference_name",
+              as: "types"
+            }
+       },
+       { $sort: { commitsLength: -1 } }
       ]
     )
       .exec();

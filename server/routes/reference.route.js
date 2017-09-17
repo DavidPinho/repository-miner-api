@@ -11,4 +11,8 @@ router.route('/repository/:repositoryId')
     /** GET /api/references/repository/:id - Get list of references filtered by repositoryId */
   .get(referenceCtrl.listByRepository);
 
+router.route('/enhanced/repository/:repositoryId')
+  /** GET /api/references/enhanced/repository/:id - Get list of references with some additional fields such as totalSmells, totalDebts and types, filtered by repositoryId */
+  .get(referenceCtrl.listEnhancedByRepository);
+
 export default router;
