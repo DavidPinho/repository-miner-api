@@ -37,4 +37,4 @@ RepositorySchema.statics = {
 /**
  * @typedef Repository
  */
-export default mongoose.model('Repository', RepositorySchema);
+export default mongoose.model('Repository', RepositorySchema, 'repositories');
