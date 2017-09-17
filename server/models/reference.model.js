@@ -43,7 +43,7 @@ ReferenceSchema.statics = {
             commitsLength: { $size: '$commits' }
           }
         },
-        { $sort: { commitsLength: -1 } }
+        { $sort: { commitsLength: 1 } }
       ]
     )
       .exec();
@@ -69,7 +69,7 @@ ReferenceSchema.statics = {
             commitsLength: { $size: '$commits' }
           }
         },
-        { $sort: { commitsLength: -1 } }
+        { $sort: { commitsLength: 1 } }
       ]
     )
       .exec();
@@ -105,7 +105,7 @@ ReferenceSchema.statics = {
           commitsLength: { $size: '$commits' }
         },
       },   
-      { $sort: { commitsLength: -1 } }
+      { $sort: { commitsLength: 1 } }
       ]
     )
       .exec();
