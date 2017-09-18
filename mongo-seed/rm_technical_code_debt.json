@@ -1,0 +1,3422 @@
+[
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c46e9"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/framework/TestSuite.java", 
+        "filestate" : "b6a0693454ac8ded32b3a1ea7c859c5a840169dc", 
+        "filehash" : NumberLong(2437918243), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "egamma", 
+                "email" : "egamma", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "emeade", 
+                "email" : "emeade", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c46ea"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/framework/ComparisonCompactor.java", 
+        "filestate" : "ba28bf0f0384ba8b2fc377ef612545f411a56ec4", 
+        "filehash" : NumberLong(2251872743), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DUPLICATED_CODE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c46eb"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/runner/BaseTestRunner.java", 
+        "filestate" : "b6a0693454ac8ded32b3a1ea7c859c5a840169dc", 
+        "filehash" : NumberLong(753764863), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "egamma", 
+                "email" : "egamma", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "emeade", 
+                "email" : "emeade", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "MULTITHREAD_CORRECTNESS" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(4), 
+            "DUPLICATED_CODE" : NumberInt(3)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c46ec"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/extensions/ActiveTestSuite.java", 
+        "filestate" : "b6a0693454ac8ded32b3a1ea7c859c5a840169dc", 
+        "filehash" : NumberLong(955758577), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "egamma", 
+                "email" : "egamma", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "MULTITHREAD_CORRECTNESS" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c46ed"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/runner/TestCaseClassLoader.java", 
+        "filestate" : "b6a0693454ac8ded32b3a1ea7c859c5a840169dc", 
+        "filehash" : NumberLong(1778020618), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "egamma", 
+                "email" : "egamma", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(2)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c46ee"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/runner/ReloadingTestSuiteLoader.java", 
+        "filestate" : "b6a0693454ac8ded32b3a1ea7c859c5a840169dc", 
+        "filehash" : NumberLong(4039167196), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "egamma", 
+                "email" : "egamma", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c46ef"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/tests/framework/ComparisonFailureTest.java", 
+        "filestate" : "39ed4a7c60e0162a514a163ba4033f4e6872ff7f", 
+        "filehash" : NumberLong(3736937257), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c46f0"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/swingui/TestSuitePanel.java", 
+        "filestate" : "4b1869ebb8002e5d0b82ab55460f6126043c9ec4", 
+        "filehash" : NumberLong(567694588), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "egamma", 
+                "email" : "egamma", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c46f1"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/framework/TestResult.java", 
+        "filestate" : "b6a0693454ac8ded32b3a1ea7c859c5a840169dc", 
+        "filehash" : NumberLong(120598639), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "egamma", 
+                "email" : "egamma", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DUPLICATED_CODE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c46f2"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/tests/framework/TestCaseTest.java", 
+        "filestate" : "9af2e559040ea3bc3db5c5d39b2c4a27098d5a76", 
+        "filehash" : NumberLong(2824522460), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "egamma", 
+                "email" : "egamma", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1), 
+            "DUPLICATED_CODE" : NumberInt(2), 
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c470a"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/textui/ResultPrinter.java", 
+        "filestate" : "4f94cdbb44242eef4dadbd8820a43883deb41386", 
+        "filehash" : NumberLong(666209123), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "egamma", 
+                "email" : "egamma", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DUPLICATED_CODE" : NumberInt(2)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c470b"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/runner/ClassPathTestCollector.java", 
+        "filestate" : "4b1869ebb8002e5d0b82ab55460f6126043c9ec4", 
+        "filehash" : NumberLong(1317468760), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "egamma", 
+                "email" : "egamma", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c470c"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/samples/SimpleTest.java", 
+        "filestate" : "b6a0693454ac8ded32b3a1ea7c859c5a840169dc", 
+        "filehash" : NumberLong(3368828432), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "egamma", 
+                "email" : "egamma", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "emeade", 
+                "email" : "emeade", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "SLOW_ALGORITHM" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(2), 
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40c9b8a9f9292f4c470d"), 
+        "reference_name" : "r3.8.2", 
+        "reference_type" : "TAG", 
+        "commit" : "a0f0ee1b3f72d9361eb09b3a25156c69a748aa47", 
+        "commit_date" : ISODate("2004-12-28T17:19:01.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "junit/tests/framework/TestListenerTest.java", 
+        "filestate" : "9af2e559040ea3bc3db5c5d39b2c4a27098d5a76", 
+        "filehash" : NumberLong(1651657241), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "egamma", 
+                "email" : "egamma", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 2
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40ceb8a9f9292f4c4716"), 
+        "reference_name" : "r4.6", 
+        "reference_type" : "TAG", 
+        "commit" : "b5e9885854a0d594451800b9127eb50afb645433", 
+        "commit_date" : ISODate("2009-04-14T02:07:14.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/junit/samples/SimpleTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(2678669351), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "SLOW_ALGORITHM" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(2), 
+            "DUPLICATED_CODE" : NumberInt(1), 
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40ceb8a9f9292f4c4717"), 
+        "reference_name" : "r4.6", 
+        "reference_type" : "TAG", 
+        "commit" : "b5e9885854a0d594451800b9127eb50afb645433", 
+        "commit_date" : ISODate("2009-04-14T02:07:14.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/junit3compatibility/ForwardCompatibilityTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(1188849462), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(3), 
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40ceb8a9f9292f4c4718"), 
+        "reference_name" : "r4.6", 
+        "reference_type" : "TAG", 
+        "commit" : "b5e9885854a0d594451800b9127eb50afb645433", 
+        "commit_date" : ISODate("2009-04-14T02:07:14.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/MethodCall.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(1019709840), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(2)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40ceb8a9f9292f4c4719"), 
+        "reference_name" : "r4.6", 
+        "reference_type" : "TAG", 
+        "commit" : "b5e9885854a0d594451800b9127eb50afb645433", 
+        "commit_date" : ISODate("2009-04-14T02:07:14.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/junit/tests/framework/AllTests.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(2449861551), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DUPLICATED_CODE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40ceb8a9f9292f4c471a"), 
+        "reference_name" : "r4.6", 
+        "reference_type" : "TAG", 
+        "commit" : "b5e9885854a0d594451800b9127eb50afb645433", 
+        "commit_date" : ISODate("2009-04-14T02:07:14.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/running/classes/ParameterizedTestTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(4019448035), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@new-host-3.home", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Mike Forsberg", 
+                "email" : "bigmike@io.com", 
+                "colaborator" : false
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40ceb8a9f9292f4c4753"), 
+        "reference_name" : "r4.6", 
+        "reference_type" : "TAG", 
+        "commit" : "b5e9885854a0d594451800b9127eb50afb645433", 
+        "commit_date" : ISODate("2009-04-14T02:07:14.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/running/methods/AnnotationTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(2080383652), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(25), 
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40ceb8a9f9292f4c4754"), 
+        "reference_name" : "r4.6", 
+        "reference_type" : "TAG", 
+        "commit" : "b5e9885854a0d594451800b9127eb50afb645433", 
+        "commit_date" : ISODate("2009-04-14T02:07:14.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/TestSystem.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(3754667400), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40d4b8a9f9292f4c4784"), 
+        "reference_name" : "r4.7", 
+        "reference_type" : "TAG", 
+        "commit" : "a8629da96207e1ce71ead9ba9f85bc324f09bcab", 
+        "commit_date" : ISODate("2009-07-28T02:16:50.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/junit3compatibility/ForwardCompatibilityTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(1188849462), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(3), 
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40d4b8a9f9292f4c4785"), 
+        "reference_name" : "r4.7", 
+        "reference_type" : "TAG", 
+        "commit" : "a8629da96207e1ce71ead9ba9f85bc324f09bcab", 
+        "commit_date" : ISODate("2009-07-28T02:16:50.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/MethodCall.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(1019709840), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(2)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40d4b8a9f9292f4c4786"), 
+        "reference_name" : "r4.7", 
+        "reference_type" : "TAG", 
+        "commit" : "a8629da96207e1ce71ead9ba9f85bc324f09bcab", 
+        "commit_date" : ISODate("2009-07-28T02:16:50.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/junit/tests/framework/AllTests.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(2449861551), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DUPLICATED_CODE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40d4b8a9f9292f4c4787"), 
+        "reference_name" : "r4.7", 
+        "reference_type" : "TAG", 
+        "commit" : "a8629da96207e1ce71ead9ba9f85bc324f09bcab", 
+        "commit_date" : ISODate("2009-07-28T02:16:50.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/running/classes/ParameterizedTestTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(4019448035), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@dhcp-172-31-197-71.cam.corp.google.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@new-host-3.home", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Mike Forsberg", 
+                "email" : "bigmike@io.com", 
+                "colaborator" : false
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40d4b8a9f9292f4c4788"), 
+        "reference_name" : "r4.7", 
+        "reference_type" : "TAG", 
+        "commit" : "a8629da96207e1ce71ead9ba9f85bc324f09bcab", 
+        "commit_date" : ISODate("2009-07-28T02:16:50.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/junit/framework/TestResult.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(442103774), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DUPLICATED_CODE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40d9b8a9f9292f4c47f6"), 
+        "reference_name" : "r4.8", 
+        "reference_type" : "TAG", 
+        "commit" : "5a3a326096cf65a58272ee89a5ef1c164cfd9d33", 
+        "commit_date" : ISODate("2009-12-01T04:08:09.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/junit/tests/runner/TextRunnerTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(3368891139), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1), 
+            "DUPLICATED_CODE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40d9b8a9f9292f4c47f7"), 
+        "reference_name" : "r4.8", 
+        "reference_type" : "TAG", 
+        "commit" : "5a3a326096cf65a58272ee89a5ef1c164cfd9d33", 
+        "commit_date" : ISODate("2009-12-01T04:08:09.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/junit/samples/SimpleTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(2678669351), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "SLOW_ALGORITHM" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(2), 
+            "DUPLICATED_CODE" : NumberInt(1), 
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40d9b8a9f9292f4c47f8"), 
+        "reference_name" : "r4.8", 
+        "reference_type" : "TAG", 
+        "commit" : "5a3a326096cf65a58272ee89a5ef1c164cfd9d33", 
+        "commit_date" : ISODate("2009-12-01T04:08:09.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/junit3compatibility/ForwardCompatibilityTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(1188849462), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(3), 
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 2
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40d9b8a9f9292f4c47f9"), 
+        "reference_name" : "r4.8", 
+        "reference_type" : "TAG", 
+        "commit" : "5a3a326096cf65a58272ee89a5ef1c164cfd9d33", 
+        "commit_date" : ISODate("2009-12-01T04:08:09.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/experimental/theories/extendingwithstubs/MethodCall.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(1019709840), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(2)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40d9b8a9f9292f4c47fa"), 
+        "reference_name" : "r4.8", 
+        "reference_type" : "TAG", 
+        "commit" : "5a3a326096cf65a58272ee89a5ef1c164cfd9d33", 
+        "commit_date" : ISODate("2009-12-01T04:08:09.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/junit/tests/framework/AllTests.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(2449861551), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DUPLICATED_CODE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40e0b8a9f9292f4c4879"), 
+        "reference_name" : "r4.9", 
+        "reference_type" : "TAG", 
+        "commit" : "61f06547599bb6b98bca99d5bc457eb20bc17cab", 
+        "commit_date" : ISODate("2011-08-22T18:20:52.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/junit/tests/framework/AssertTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(3591743889), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "David Saff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Kevin Cooney", 
+                "email" : "kcooney@google.com", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "SLOW_ALGORITHM" : NumberInt(2), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(5), 
+            "DUPLICATED_CODE" : NumberInt(1), 
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40e0b8a9f9292f4c487a"), 
+        "reference_name" : "r4.9", 
+        "reference_type" : "TAG", 
+        "commit" : "61f06547599bb6b98bca99d5bc457eb20bc17cab", 
+        "commit_date" : ISODate("2011-08-22T18:20:52.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/org/junit/internal/runners/statements/ExpectException.java", 
+        "filestate" : "96d7dd609920deb1336cf85dc6c9a3a0d5e30d15", 
+        "filehash" : NumberLong(109517768), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@dhcp-172-31-197-71.cam.corp.google.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40e0b8a9f9292f4c487b"), 
+        "reference_name" : "r4.9", 
+        "reference_type" : "TAG", 
+        "commit" : "61f06547599bb6b98bca99d5bc457eb20bc17cab", 
+        "commit_date" : ISODate("2011-08-22T18:20:52.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/junit/framework/ComparisonCompactor.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(136469348), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DUPLICATED_CODE" : NumberInt(2)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40e5b8a9f9292f4c48f6"), 
+        "reference_name" : "r4.10", 
+        "reference_type" : "TAG", 
+        "commit" : "45a44647e7306262162e1346b750c3209019f2e1", 
+        "commit_date" : ISODate("2011-09-29T18:18:35.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/running/methods/ParameterizedTestMethodTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(877298070), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DUPLICATED_CODE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40e5b8a9f9292f4c48f7"), 
+        "reference_name" : "r4.10", 
+        "reference_type" : "TAG", 
+        "commit" : "45a44647e7306262162e1346b750c3209019f2e1", 
+        "commit_date" : ISODate("2011-09-29T18:18:35.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/org/junit/experimental/results/PrintableResult.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(2619987268), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "David Saff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@redredrobot.home", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@redredrobot.local", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(2)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40e5b8a9f9292f4c48f8"), 
+        "reference_name" : "r4.10", 
+        "reference_type" : "TAG", 
+        "commit" : "45a44647e7306262162e1346b750c3209019f2e1", 
+        "commit_date" : ISODate("2011-09-29T18:18:35.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/junit/tests/framework/AssertTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(3591743889), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "David Saff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Kevin Cooney", 
+                "email" : "kcooney@google.com", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "SLOW_ALGORITHM" : NumberInt(2), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(5), 
+            "DUPLICATED_CODE" : NumberInt(1), 
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40e5b8a9f9292f4c48f9"), 
+        "reference_name" : "r4.10", 
+        "reference_type" : "TAG", 
+        "commit" : "45a44647e7306262162e1346b750c3209019f2e1", 
+        "commit_date" : ISODate("2011-09-29T18:18:35.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/org/junit/internal/runners/statements/ExpectException.java", 
+        "filestate" : "96d7dd609920deb1336cf85dc6c9a3a0d5e30d15", 
+        "filehash" : NumberLong(109517768), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@dhcp-172-31-197-71.cam.corp.google.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40e5b8a9f9292f4c48fa"), 
+        "reference_name" : "r4.10", 
+        "reference_type" : "TAG", 
+        "commit" : "45a44647e7306262162e1346b750c3209019f2e1", 
+        "commit_date" : ISODate("2011-09-29T18:18:35.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/junit/framework/ComparisonCompactor.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(136469348), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DUPLICATED_CODE" : NumberInt(2)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40e5b8a9f9292f4c495d"), 
+        "reference_name" : "r4.10", 
+        "reference_type" : "TAG", 
+        "commit" : "45a44647e7306262162e1346b750c3209019f2e1", 
+        "commit_date" : ISODate("2011-09-29T18:18:35.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/running/methods/TimeoutTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(3548673769), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "David Saff", 
+                "email" : "saff@dhcp-172-31-197-71.cam.corp.google.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40edb8a9f9292f4c4970"), 
+        "reference_name" : "r4.11", 
+        "reference_type" : "TAG", 
+        "commit" : "c2e4d911fadfbd64444fb285342a8f1b72336169", 
+        "commit_date" : ISODate("2012-11-13T20:10:09.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/junit/framework/TestResult.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(442103774), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DUPLICATED_CODE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40edb8a9f9292f4c4971"), 
+        "reference_name" : "r4.11", 
+        "reference_type" : "TAG", 
+        "commit" : "c2e4d911fadfbd64444fb285342a8f1b72336169", 
+        "commit_date" : ISODate("2012-11-13T20:10:09.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/org/junit/ComparisonFailure.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(3923430781), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Matthew Farwell", 
+                "email" : "matthew@farwell.co.uk", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DUPLICATED_CODE" : NumberInt(2)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 0
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40edb8a9f9292f4c4972"), 
+        "reference_name" : "r4.11", 
+        "reference_type" : "TAG", 
+        "commit" : "c2e4d911fadfbd64444fb285342a8f1b72336169", 
+        "commit_date" : ISODate("2012-11-13T20:10:09.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/samples/SimpleTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(336009984), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "SLOW_ALGORITHM" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40edb8a9f9292f4c4973"), 
+        "reference_name" : "r4.11", 
+        "reference_type" : "TAG", 
+        "commit" : "c2e4d911fadfbd64444fb285342a8f1b72336169", 
+        "commit_date" : ISODate("2012-11-13T20:10:09.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/manipulation/SingleMethodTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(3264597696), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@redredrobot.home", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(4)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40edb8a9f9292f4c4974"), 
+        "reference_name" : "r4.11", 
+        "reference_type" : "TAG", 
+        "commit" : "c2e4d911fadfbd64444fb285342a8f1b72336169", 
+        "commit_date" : ISODate("2012-11-13T20:10:09.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/experimental/rules/TempFolderRuleTest.java", 
+        "filestate" : "97afc5e205e1c6ac0f5a9aefabed92d58d88ab81", 
+        "filehash" : NumberLong(1473069303), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Matthew Farwell", 
+                "email" : "matthew@farwell.co.uk", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Daniel Rothmaler", 
+                "email" : "daniel.rothmaler@nubix.biz", 
+                "colaborator" : false
+            }, 
+            {
+                "name" : "rodolfoliviero", 
+                "email" : "rodolfoliviero@gmail.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Esko Luontola", 
+                "email" : "esko.luontola@gmail.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Marc Philipp", 
+                "email" : "mail@marcphilipp.de", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@redredrobot.home", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Arjen Stolk", 
+                "email" : "simplyarjen@gmail.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Daniel Rothmaler", 
+                "email" : "daniel_rothmaler@web.de", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(6), 
+            "DUPLICATED_CODE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40f8b8a9f9292f4c4a01"), 
+        "reference_name" : "r4.12", 
+        "reference_type" : "TAG", 
+        "commit" : "64155f8a9babcfcf4263cf4d08253a1556e75481", 
+        "commit_date" : ISODate("2014-12-04T16:13:56.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/experimental/rules/TemporaryFolderUsageTest.java", 
+        "filestate" : "93346b959c96b3e90e4f3f3b015f7049ed4624ed", 
+        "filehash" : NumberLong(3590290330), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Priya", 
+                "email" : "pria.v03@gmail.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Dmitry Vyazelenko", 
+                "email" : "vyazelenko@yahoo.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Simon Stewart", 
+                "email" : "shs@google.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "unknown", 
+                "email" : "gezr@a11.(none)", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1), 
+            "DUPLICATED_CODE" : NumberInt(3)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40f8b8a9f9292f4c4a02"), 
+        "reference_name" : "r4.12", 
+        "reference_type" : "TAG", 
+        "commit" : "64155f8a9babcfcf4263cf4d08253a1556e75481", 
+        "commit_date" : ISODate("2014-12-04T16:13:56.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/org/junit/experimental/results/PrintableResult.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(2619987268), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@redredrobot.home", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@redredrobot.local", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(2)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40f8b8a9f9292f4c4a03"), 
+        "reference_name" : "r4.12", 
+        "reference_type" : "TAG", 
+        "commit" : "64155f8a9babcfcf4263cf4d08253a1556e75481", 
+        "commit_date" : ISODate("2014-12-04T16:13:56.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/junit/tests/framework/AssertTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(3591743889), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Kevin Cooney", 
+                "email" : "kcooney@google.com", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "SLOW_ALGORITHM" : NumberInt(2), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(5), 
+            "DUPLICATED_CODE" : NumberInt(1), 
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40f8b8a9f9292f4c4a04"), 
+        "reference_name" : "r4.12", 
+        "reference_type" : "TAG", 
+        "commit" : "64155f8a9babcfcf4263cf4d08253a1556e75481", 
+        "commit_date" : ISODate("2014-12-04T16:13:56.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/org/junit/internal/runners/statements/ExpectException.java", 
+        "filestate" : "96d7dd609920deb1336cf85dc6c9a3a0d5e30d15", 
+        "filehash" : NumberLong(109517768), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@dhcp-172-31-197-71.cam.corp.google.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Alex Yursha", 
+                "email" : "alex.yursha@icloud.com", 
+                "colaborator" : false
+            }, 
+            {
+                "name" : "Stefan Birkner", 
+                "email" : "mail@stefan-birkner.de", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "kbeck", 
+                "email" : "kbeck", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40f8b8a9f9292f4c4a05"), 
+        "reference_name" : "r4.12", 
+        "reference_type" : "TAG", 
+        "commit" : "64155f8a9babcfcf4263cf4d08253a1556e75481", 
+        "commit_date" : ISODate("2014-12-04T16:13:56.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/junit/framework/ComparisonCompactor.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(136469348), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DUPLICATED_CODE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40f8b8a9f9292f4c4a06"), 
+        "reference_name" : "r4.12", 
+        "reference_type" : "TAG", 
+        "commit" : "64155f8a9babcfcf4263cf4d08253a1556e75481", 
+        "commit_date" : ISODate("2014-12-04T16:13:56.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/junit/runner/BaseTestRunner.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(2425774882), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@dhcp-172-31-197-71.cam.corp.google.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Stefan Birkner", 
+                "email" : "mail@stefan-birkner.de", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Vladislav Bauer", 
+                "email" : "bauer.vlad@gmail.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Miltos Allamanis", 
+                "email" : "m.allamanis@ed.ac.uk", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Kevin Cooney", 
+                "email" : "kcooney@google.com", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "MULTITHREAD_CORRECTNESS" : NumberInt(1), 
+            "FEATURE_ENVY" : NumberInt(1), 
+            "GOD_CLASS" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(4), 
+            "DUPLICATED_CODE" : NumberInt(3)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40f8b8a9f9292f4c4a07"), 
+        "reference_name" : "r4.12", 
+        "reference_type" : "TAG", 
+        "commit" : "64155f8a9babcfcf4263cf4d08253a1556e75481", 
+        "commit_date" : ISODate("2014-12-04T16:13:56.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/junit/tests/framework/FloatAssertTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(3507154267), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1), 
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("595e40f8b8a9f9292f4c4a76"), 
+        "reference_name" : "r4.12", 
+        "reference_type" : "TAG", 
+        "commit" : "64155f8a9babcfcf4263cf4d08253a1556e75481", 
+        "commit_date" : ISODate("2014-12-04T16:13:56.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/junit/framework/TestSuite.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(1335393075), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Jesse Glick", 
+                "email" : "jesse.glick@oracle.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "KentBeck", 
+                "email" : "kent@threeriversinstitute.org", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Miltos Allamanis", 
+                "email" : "m.allamanis@ed.ac.uk", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Dustin Lam", 
+                "email" : "mynameisdustinlam@gmail.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Kevin Cooney", 
+                "email" : "kcooney@google.com", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1), 
+            "DUPLICATED_CODE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("5960f333b8a9f9152e4ae6a8"), 
+        "reference_name" : "master", 
+        "reference_type" : "BRANCH", 
+        "commit" : "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c", 
+        "commit_date" : ISODate("2017-06-23T21:16:19.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/junit/framework/TestSuite.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(1335393075), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Jesse Glick", 
+                "email" : "jesse.glick@oracle.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Kevin Cooney", 
+                "email" : "kcooney@users.noreply.github.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Jin Haifeng", 
+                "email" : "jhfjhfj1@gmail.com", 
+                "colaborator" : false
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Marc Philipp", 
+                "email" : "mail@marcphilipp.de", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Alberto Scotto", 
+                "email" : "scotto.alberto.86@gmail.com", 
+                "colaborator" : false
+            }, 
+            {
+                "name" : "KentBeck", 
+                "email" : "kent@threeriversinstitute.org", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Miltos Allamanis", 
+                "email" : "m.allamanis@ed.ac.uk", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Dustin Lam", 
+                "email" : "mynameisdustinlam@gmail.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Kevin Cooney", 
+                "email" : "kcooney@google.com", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("5960f333b8a9f9152e4ae6a9"), 
+        "reference_name" : "master", 
+        "reference_type" : "BRANCH", 
+        "commit" : "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c", 
+        "commit_date" : ISODate("2017-06-23T21:16:19.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/running/classes/RunWithTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(1668921901), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(2)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("5960f333b8a9f9152e4ae6aa"), 
+        "reference_name" : "master", 
+        "reference_type" : "BRANCH", 
+        "commit" : "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c", 
+        "commit_date" : ISODate("2017-06-23T21:16:19.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/running/methods/TimeoutTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(3548673769), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@dhcp-172-31-197-71.cam.corp.google.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Mike Drob", 
+                "email" : "mdrob@cloudera.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Marc Philipp", 
+                "email" : "mail@marcphilipp.de", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Adam Beneschan", 
+                "email" : "adambeneschan@aol.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Kevin Cooney", 
+                "email" : "kcooney@google.com", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1), 
+            "FEATURE_ENVY" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 1
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("5960f333b8a9f9152e4ae6ab"), 
+        "reference_name" : "master", 
+        "reference_type" : "BRANCH", 
+        "commit" : "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c", 
+        "commit_date" : ISODate("2017-06-23T21:16:19.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/running/classes/ParentRunnerFilteringTest.java", 
+        "filestate" : "01b427b3b89ce04d01f0ddbd746d13a175feec5b", 
+        "filehash" : NumberLong(499675950), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "david@saff.net", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Kevin Cooney", 
+                "email" : "kcooney@google.com", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(2), 
+            "FEATURE_ENVY" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("5960f333b8a9f9152e4ae6ac"), 
+        "reference_name" : "master", 
+        "reference_type" : "BRANCH", 
+        "commit" : "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c", 
+        "commit_date" : ISODate("2017-06-23T21:16:19.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/junit/tests/framework/InheritedTestCase.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(4287746235), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "DEPTH_OF_INHERITANCE_TREE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("5960f333b8a9f9152e4ae6ad"), 
+        "reference_name" : "master", 
+        "reference_type" : "BRANCH", 
+        "commit" : "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c", 
+        "commit_date" : ISODate("2017-06-23T21:16:19.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/org/junit/experimental/theories/internal/Assignments.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(1287251004), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Dmitry Baev", 
+                "email" : "charlie@yandex-team.ru", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Alex Yursha", 
+                "email" : "alex.yursha@icloud.com", 
+                "colaborator" : false
+            }, 
+            {
+                "name" : "Stefan Birkner", 
+                "email" : "mail@stefan-birkner.de", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "David Saff", 
+                "email" : "saff@redredrobot.home", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Brazhnikov", 
+                "email" : "brazhnikov.dmitry@gmail.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "pimterry", 
+                "email" : "pimterry@gmail.com", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("5960f333b8a9f9152e4ae6ae"), 
+        "reference_name" : "master", 
+        "reference_type" : "BRANCH", 
+        "commit" : "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c", 
+        "commit_date" : ISODate("2017-06-23T21:16:19.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/junit/tests/runner/TextFeedbackTest.java", 
+        "filestate" : "8226e3e64a7d4ace29eb08ab6c9fc9d4055f20c9", 
+        "filehash" : NumberLong(3960987284), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "dsaff", 
+                "email" : "dsaff", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(5), 
+            "REFUSED_PARENT_BEQUEST" : NumberInt(1), 
+            "DUPLICATED_CODE" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("5960f333b8a9f9152e4ae6af"), 
+        "reference_name" : "master", 
+        "reference_type" : "BRANCH", 
+        "commit" : "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c", 
+        "commit_date" : ISODate("2017-06-23T21:16:19.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/main/java/org/junit/internal/runners/rules/RuleMemberValidator.java", 
+        "filestate" : "d9b90bc27491c7c02a61c68afe33f41ea1fab338", 
+        "filehash" : NumberLong(1145648460), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Narendra Pathai", 
+                "email" : "narendra.pathai@gmail.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Rowan Hill", 
+                "email" : "rowan.hill@softwire.com", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "FEATURE_ENVY" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("5960f333b8a9f9152e4ae6b0"), 
+        "reference_name" : "master", 
+        "reference_type" : "BRANCH", 
+        "commit" : "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c", 
+        "commit_date" : ISODate("2017-06-23T21:16:19.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/experimental/categories/CategoriesAndParameterizedTest.java", 
+        "filestate" : "4d0d182424f462cb29b74c99d352d3bf4beb1e05", 
+        "filehash" : NumberLong(3446776389), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Paul Duffin", 
+                "email" : "paulduffin@google.com", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(1), 
+            "FEATURE_ENVY" : NumberInt(1)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    },
+    { 
+        "_id" : ObjectId("5960f333b8a9f9152e4ae6b1"), 
+        "reference_name" : "master", 
+        "reference_type" : "BRANCH", 
+        "commit" : "6324fde37e0a87c8a03ac6cb3aa0664c8c07442c", 
+        "commit_date" : ISODate("2017-06-23T21:16:19.000+0000"), 
+        "repository" : ObjectId("595e1e6fb8a9f919be23e132"), 
+        "filename" : "src/test/java/org/junit/tests/running/core/MainRunner.java", 
+        "filestate" : "17f7dfc72624253461022acff1d3aa6b9c4056cf", 
+        "filehash" : NumberLong(1493695081), 
+        "technical_debt" : false, 
+        "contributors" : [
+            {
+                "name" : "Arjan Wulder", 
+                "email" : "awulder@xebia.com", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Matthew Farwell", 
+                "email" : "matthew@farwell.co.uk", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Marc Philipp", 
+                "email" : "mail@marcphilipp.de", 
+                "colaborator" : true
+            }, 
+            {
+                "name" : "Miltos Allamanis", 
+                "email" : "m.allamanis@ed.ac.uk", 
+                "colaborator" : true
+            }
+        ], 
+        "indicators" : {
+            "SLOW_ALGORITHM" : NumberInt(1), 
+            "AUTOMATIC_STATIC_ANALYSIS_ISSUES" : NumberInt(2)
+        }, 
+        "debts" : [
+            {
+                "name": "CODE_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DESIGN_DEBT",
+                "value": 1
+            },
+            {
+                "name": "REQUIREMENT_DEBT",
+                "value": 0
+            },
+            {
+                "name": "DEFECT_DEBT",
+                "value": 1
+            },
+            {
+                "name": "TEST_DEBT",
+                "value": 0
+            }
+        ]
+    }
+    ]
+    

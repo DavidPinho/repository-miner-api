@@ -1,0 +1,29 @@
+[
+    { 
+        "_id" : ObjectId("59be8088b8a9f91acc9ea895"), 
+        "key" : null, 
+        "name" : "junit", 
+        "path" : "/home/felipe/git/junit4", 
+        "scm" : "GIT", 
+        "description" : "teste", 
+        "contributors" : [
+            {
+                "name" : "Mustafa Ali", 
+                "email" : "mustafa.ali@mutualmobile.com"
+            }, 
+            {
+                "name" : "Éamonn McManus", 
+                "email" : "eamonn@mcmanus.net"
+            }, 
+            {
+                "name" : "Russell Santos", 
+                "email" : "russell.santos@gmail.com"
+            }, 
+            {
+                "name" : "Nicolas A. Bérard-Nault", 
+                "email" : "nicobn@gmail.com"
+            }
+        ]
+    }
+    ]
+    
