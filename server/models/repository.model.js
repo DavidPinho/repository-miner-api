@@ -4,10 +4,8 @@ import mongoose from 'mongoose';
  * Repository Schema
  */
 const RepositorySchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: true
-  },
+  name: String,
+  key: String,
   path: String,
   description: String,
   scm: String,
@@ -37,4 +35,4 @@ RepositorySchema.statics = {
 /**
  * @typedef Repository
  */
-export default mongoose.model('Repository', RepositorySchema, 'repositories');
+export default mongoose.model('Repository', RepositorySchema, 'rm_repository');

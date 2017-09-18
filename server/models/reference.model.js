@@ -4,14 +4,8 @@ import mongoose from 'mongoose';
  * Reference Schema
  */
 const ReferenceSchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: true
-  },
-  repository: {
-    type: String,
-    required: true
-  },
+  name: String,
+  repository: String,
   path: String,
   type: String,
   commits: [String]
@@ -57,7 +51,7 @@ ReferenceSchema.statics = {
       [
         {
           $match: {
-            repository: repositoryId
+            repository: mongoose.Types.ObjectId(repositoryId)
           }
         },
         {
@@ -83,13 +77,13 @@ ReferenceSchema.statics = {
       [
         {
           $match: {
-            repository: repositoryId
+            repository: mongoose.Types.ObjectId(repositoryId)
           }
         },
         {
           $lookup:
             {
-              from: "technical_code_debt",
+              from: "rm_technical_code_debt",
               localField: "name",
               foreignField: "reference_name",
               as: "files"
@@ -115,4 +109,4 @@ ReferenceSchema.statics = {
 /**
  * @typedef Reference
  */
-export default mongoose.model('Reference', ReferenceSchema);
+export default mongoose.model('Reference', ReferenceSchema, 'rm_reference');
