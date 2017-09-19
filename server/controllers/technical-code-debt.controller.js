@@ -10,4 +10,16 @@ function list(req, res, next) {
     .catch(e => next(e));
 }
 
-export default { list };
+/**
+ * Set debt value to -1 searching by file _id and debt name.
+ * @returns {TechnicalCodeDebt}
+ */
+function cancelDebt(req, res, next) {
+  var id = req.params.fileId;
+  var debtName = req.params.debtName;  
+  TechnicalCodeDebt.updateDebtValue(id, debtName, -1)
+    .then(technicalCodeDebt => res.json(technicalCodeDebt))
+    .catch(e => next(e));
+}  
+
+export default { list, cancelDebt };
