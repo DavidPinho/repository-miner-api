@@ -22,4 +22,15 @@ function cancelDebt(req, res, next) {
     .catch(e => next(e));
 }  
 
-export default { list, cancelDebt };
+/**
+ * Confirm all technical debt for a given reference. (Set TD value to 1)
+ */
+function confirmDebtByReference(req, res, next) {
+  var referenceName = req.params.referenceName; 
+  var debtName = req.params.debtName;    
+  TechnicalCodeDebt.confirmDebtByReference(referenceName, debtName)
+    .then(result => res.json(result))
+    .catch(e => next(e));
+}  
+
+export default { list, cancelDebt, confirmDebtByReference };

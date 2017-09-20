@@ -10,4 +10,8 @@ router.route('/cancel-debt/:fileId/:debtName')
   /** GET /api/technical-code-debt/cancel-debt/:fileId/:debtName - Set debt value to -1 */
   .get(technicalCodeDebtCtrl.cancelDebt);  
 
+router.route('/confirm-debt/reference/:referenceName/:debtName')
+  /** GET /api/technical-code-debt/confirm-debt/reference/:referenceName/:debtName - Set value of all debts to 1 */
+  .get(technicalCodeDebtCtrl.confirmDebtByReference);  
+
 export default router;

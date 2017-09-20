@@ -43,10 +43,18 @@ TechnicalCodeDebtSchema.statics = {
   },
 
   /**
-   * List repositories sorted by name.
+   * Update debt value searching by file _id and debt name.
    */
   updateDebtValue(id, debtName, debtValue) {
     return this.findOneAndUpdate({_id: mongoose.Types.ObjectId(id), debts: {$elemMatch: {name: debtName}}}, {$set:{'debts.$.value': debtValue}}, {new: true})
+      .exec();
+  },
+
+  /**
+   * Confirm all technical debt for a given reference. (Set TD value to 1)
+  */
+  confirmDebtByReference(referenceName, debtName) {
+    return this.update({reference_name: referenceName, debts: {$elemMatch: {value: {$in: [-1, 0]}, name: debtName}}}, {$set: {'debts.$.value': 1}}, {multi: true})
       .exec();
   }
 };
